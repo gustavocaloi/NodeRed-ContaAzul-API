@@ -1,6 +1,14 @@
 [
     {
-        "id": "5328378e44f89b23",
+        "id": "4097a5586d4dda60",
+        "type": "tab",
+        "label": "Conta Azul - ok ",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "a5270bf39d2b1e5f",
         "type": "tab",
         "label": "Conta Azul",
         "disabled": false,
@@ -8,105 +16,113 @@
         "env": []
     },
     {
-        "id": "f8f155864df687d1",
+        "id": "ee01ea9dc7f8444d",
+        "type": "tab",
+        "label": "node-red-contrib-oauth2",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "56ab15c9e767d058",
         "type": "group",
-        "z": "5328378e44f89b23",
+        "z": "a5270bf39d2b1e5f",
         "name": "PRODUCTS",
         "style": {
             "label": true
         },
         "nodes": [
-            "778de4d5542a6d8a",
-            "f07e8f33e135a3eb"
+            "8eb6a30e696f032d",
+            "ad10637843808906"
         ],
         "x": 28,
-        "y": 593,
+        "y": 693,
         "w": 1704,
         "h": 454
     },
     {
-        "id": "85217864ccf744e5",
+        "id": "bbb8a32611c2c037",
         "type": "group",
-        "z": "5328378e44f89b23",
+        "z": "a5270bf39d2b1e5f",
         "name": "AUTHENTICATION",
         "style": {
             "label": true
         },
         "nodes": [
-            "c1fbd38512f5c6b5",
-            "c1ff3c38b85811f4",
-            "a1cdd94000350d25"
+            "466b68bd101cc969",
+            "7e1a2f9059f99060",
+            "3ce7547e36ce59f3"
         ],
         "x": 28,
-        "y": 13,
+        "y": 33,
         "w": 1204,
-        "h": 554
+        "h": 634
     },
     {
-        "id": "6e7fd02405f167ad",
+        "id": "9d4745f75b37816d",
         "type": "group",
-        "z": "5328378e44f89b23",
+        "z": "a5270bf39d2b1e5f",
         "name": "SALES",
         "style": {
             "label": true
         },
         "nodes": [
-            "1a8ad4193dc356bb",
-            "befb70dbaf139f8d",
-            "ef0208012326a558",
-            "f97c9d8192f0bd5c"
+            "520c4afdd2a2c58c",
+            "d4955d968e26a214",
+            "fdb14db95ecc5489",
+            "3b12e437c83e0daf"
         ],
         "x": 28,
-        "y": 1073,
+        "y": 1173,
         "w": 1924,
         "h": 714
     },
     {
-        "id": "8a37af58e6a7a82b",
+        "id": "6096fe5c52cfd343",
         "type": "group",
-        "z": "5328378e44f89b23",
+        "z": "a5270bf39d2b1e5f",
         "name": "CUSTOMERS",
         "style": {
             "label": true
         },
         "nodes": [
-            "32e1850c7840ff48",
-            "5e688a459b07d609",
-            "f36f9fc23b484ae5",
-            "e208510019ac2a02",
-            "d342ed272c64a446",
-            "01ae2fbf1f6e538f",
-            "81f600f3387e2f56",
-            "907522eae72fbf3b",
-            "bde71b2e57fcf080",
-            "6691362f660124c3"
+            "b43dde4d98c875f2",
+            "e94038d695093f33",
+            "af723a6dc70c8d0c",
+            "d437ac64422b7229",
+            "8ef7304f87a2b516",
+            "837c90f110656909",
+            "0649b31b191683d2",
+            "8aafeac1723a951f",
+            "e926df5e9fdd5f13",
+            "9bde48f6bc610288"
         ],
         "x": 34,
-        "y": 1899,
+        "y": 1919,
         "w": 1632,
         "h": 162
     },
     {
-        "id": "50be9245bba02fe7",
+        "id": "e90afc02c540d6bf",
         "type": "group",
-        "z": "5328378e44f89b23",
+        "z": "a5270bf39d2b1e5f",
         "name": "OUTROS",
         "style": {
             "label": true
         },
         "nodes": [
-            "c1e324ec0d8f36ca",
-            "b26406af77fa6298",
-            "187932e0bcb6406b",
-            "9ee97d74a7aed945",
-            "20adad00ef64b0c1",
-            "f79591417e4b3de4",
-            "b0f0534e1cb7b60c",
-            "da1c6bc53c99c613",
-            "5b7a466954c986c8",
-            "eba8c7615ad933dc",
-            "bff216603791337c",
-            "22740ad29cb483e7"
+            "8668d2144ef6f1c7",
+            "1d606b2c0278a39d",
+            "e507970da3ab090e",
+            "98b3bfc077fcc178",
+            "171b661d899461a7",
+            "8363ee16734aa229",
+            "00b57c33cfb11cbb",
+            "a562bd5b29300458",
+            "7fd9165a4da698af",
+            "9d8a234b6c840cec",
+            "f1b30d04c9b97d4a",
+            "72686b373891ff9a"
         ],
         "x": 34,
         "y": 2099,
@@ -114,233 +130,420 @@
         "h": 202
     },
     {
-        "id": "778de4d5542a6d8a",
+        "id": "e61e769088c22705",
         "type": "group",
-        "z": "5328378e44f89b23",
-        "g": "f8f155864df687d1",
+        "z": "ee01ea9dc7f8444d",
+        "name": "oauth2",
+        "style": {
+            "fill": "#bfc7d7",
+            "label": true
+        },
+        "nodes": [
+            "dbf002e7839fdaf4",
+            "c11eb7aff843bd09"
+        ],
+        "x": 48,
+        "y": 33
+    },
+    {
+        "id": "8eb6a30e696f032d",
+        "type": "group",
+        "z": "a5270bf39d2b1e5f",
+        "g": "56ab15c9e767d058",
         "name": "PRODUCT CATEGORIES",
         "style": {
             "label": true
         },
         "nodes": [
-            "67e3983e289bfe7d",
-            "719648dba782163d",
-            "b1bfbf95592b3c9f",
-            "afad95bde58397ef",
-            "a30be28b30a798d7",
-            "9bad40bafb10d940",
-            "ef4e53d77125a422",
-            "7a73930fc454e110",
-            "b6dd09a252f859d1"
+            "4642b89e9222ba63",
+            "305f5fe9e6c555a9",
+            "af6082a695d10792",
+            "523bdef02e031da3",
+            "690fdab22117e084",
+            "04393361ea052f4e",
+            "8859ca37fde68cd8",
+            "6e99bacf77e40947",
+            "2c35938c1ab9765d"
         ],
         "x": 54,
-        "y": 619,
+        "y": 719,
         "w": 1652,
         "h": 142
     },
     {
-        "id": "f07e8f33e135a3eb",
+        "id": "ad10637843808906",
         "type": "group",
-        "z": "5328378e44f89b23",
-        "g": "f8f155864df687d1",
+        "z": "a5270bf39d2b1e5f",
+        "g": "56ab15c9e767d058",
         "name": "PRODUCTS LIST",
         "style": {
             "label": true
         },
         "nodes": [
-            "8407c3ac9d4b317c",
-            "0bbd5636b17709d1",
-            "552878a0d1690ea7",
-            "01365da054b0a791",
-            "2e3be6d7b67bc0d5",
-            "bb207b54af5d03d7",
-            "a2b03d0c497b41d2",
-            "e62860145876be69",
-            "abd50c2459d2b722",
-            "789e2476b90832d8"
+            "859a498192a464e6",
+            "7f682d4dd3a7350e",
+            "a9f089bb889079ba",
+            "cf6a8a293a3416f0",
+            "8632dc1f7cae2e36",
+            "96f25beefd9f4ad8",
+            "2b4d93a7377daeb3",
+            "4b96b4f4e88fa774",
+            "6d1cc2dfd3f1a263",
+            "2456fb26facc2e13"
         ],
         "x": 54,
-        "y": 819,
+        "y": 919,
         "w": 1632,
         "h": 202
     },
     {
-        "id": "c1fbd38512f5c6b5",
+        "id": "466b68bd101cc969",
         "type": "group",
-        "z": "5328378e44f89b23",
-        "g": "85217864ccf744e5",
+        "z": "a5270bf39d2b1e5f",
+        "g": "bbb8a32611c2c037",
         "name": "CREDENTIALS",
         "style": {
             "label": true
         },
         "nodes": [
-            "311f8a64823d13bc",
-            "ad419de749bdb743",
-            "cdf42c22ee81eccb",
-            "1404f532525a4d71",
-            "85596e28f54d3208"
+            "8c67ec731a3c9cad",
+            "406b0a21329cf8d1",
+            "27e0ffbe491ea8f5",
+            "ceee711fb518653f",
+            "d820ad4eae640b0c",
+            "10d7fda56335549d"
         ],
         "x": 54,
-        "y": 39,
+        "y": 59,
         "w": 892,
         "h": 122
     },
     {
-        "id": "c1ff3c38b85811f4",
+        "id": "7e1a2f9059f99060",
         "type": "group",
-        "z": "5328378e44f89b23",
-        "g": "85217864ccf744e5",
+        "z": "a5270bf39d2b1e5f",
+        "g": "bbb8a32611c2c037",
         "name": "REFRESH",
         "style": {
-            "label": true
+            "label": true,
+            "stroke": "#0070c0",
+            "color": "#000000",
+            "fill": "#7fb7df"
         },
         "nodes": [
-            "0e76ae143ab92f65",
-            "676ebe1c05eb164e",
-            "fd1cfb17066595ea",
-            "96c6cefb8ed68c71",
-            "07d62311e3d86ba7"
+            "d1ba341040cea0c3",
+            "aa24d69faa1640cd",
+            "efd1a2a910ca1051",
+            "a8fca004e704e071",
+            "9e9332c792dbdc01",
+            "4030c52c.c2c29c",
+            "31727a2c.05a026",
+            "64d9243f.b7be7c",
+            "3b67977c.a53c08"
         ],
         "x": 54,
-        "y": 179,
+        "y": 199,
         "w": 1152,
-        "h": 82
+        "h": 162
     },
     {
-        "id": "a1cdd94000350d25",
+        "id": "3ce7547e36ce59f3",
         "type": "group",
-        "z": "5328378e44f89b23",
-        "g": "85217864ccf744e5",
+        "z": "a5270bf39d2b1e5f",
+        "g": "bbb8a32611c2c037",
         "name": "TOKEN",
         "style": {
             "label": true
         },
         "nodes": [
-            "4c11ab15a0c33e51",
-            "1c7feb9035e1eaf5",
-            "90fb053a44837499",
-            "c118f47ec2ba6053",
-            "9d552f3f0f6fa0ca",
-            "019252c2c93b6e10",
-            "bdfc034cbe151e20",
-            "c3e2173ea1c35bd8",
-            "8cc18731337714ae"
+            "c3a4a71d41598827",
+            "1809fd1bf70e37c1",
+            "4127bb1788d9d2ac",
+            "c3df22dd001e6edf",
+            "415fb04725a88f1f",
+            "1e3bb891e03d3d9a",
+            "361f24fcab9e4941",
+            "5b03b7211002b51c",
+            "7cbc36987152bf6d"
         ],
         "x": 54,
-        "y": 279,
+        "y": 379,
         "w": 732,
         "h": 262
     },
     {
-        "id": "1a8ad4193dc356bb",
+        "id": "520c4afdd2a2c58c",
         "type": "group",
-        "z": "5328378e44f89b23",
-        "g": "6e7fd02405f167ad",
+        "z": "a5270bf39d2b1e5f",
+        "g": "9d4745f75b37816d",
         "name": "LIST SALES",
         "style": {
             "label": true
         },
         "nodes": [
-            "071a8cc5e71c0603",
-            "3909dd54f8269fa0",
-            "49389ee7af39b366",
-            "05c29d0295a4f543",
-            "5a2812d1760660fc",
-            "91b15223c4efa5df",
-            "9d634a726be7ab73",
-            "7b4b7c4c1c6fbfec",
-            "113493730f69bf9b",
-            "21bacf50c6bd062a",
-            "325b750de5a7f642",
-            "372e87d11f62cb10",
-            "61e684cdd3878e5b"
+            "bb85a7678e125257",
+            "dbc564b793ab2147",
+            "559f581f0b47ea55",
+            "7c80bb99fb8dd6cf",
+            "9e853932e5246287",
+            "85400eee0244b9bf",
+            "288faaaba62e9a21",
+            "42652ca971069b48",
+            "7bdb4f61e6364d06",
+            "09f28a6bb15a86f2",
+            "aa7d344c640480bd",
+            "e2c59302d572a28d",
+            "db8917699fd33413"
         ],
         "x": 54,
-        "y": 1099,
+        "y": 1199,
         "w": 1632,
         "h": 182
     },
     {
-        "id": "befb70dbaf139f8d",
+        "id": "d4955d968e26a214",
         "type": "group",
-        "z": "5328378e44f89b23",
-        "g": "6e7fd02405f167ad",
+        "z": "a5270bf39d2b1e5f",
+        "g": "9d4745f75b37816d",
         "name": "LIST SALES ITEMS",
         "style": {
             "label": true
         },
         "nodes": [
-            "efe332b947f43eef",
-            "feaefbe2d6d09d02",
-            "4bfa6bde8f7356e5",
-            "47f38711ca8fa602",
-            "2cc03b489135af1f",
-            "827061443a43a6dc",
-            "abda419234b9396a",
-            "03e986da773b1e33",
-            "f79ab1c0d1703c19",
-            "ba8fe1441f31e37f"
+            "b6a3304892da3876",
+            "8394a30dc9e26b4a",
+            "38ba0d7fa969840f",
+            "71b447e4ec057c50",
+            "e5b6127830cd9203",
+            "e68697b67f6f0aa1",
+            "44f4dc20024c4528",
+            "3576871ba80bd4c5",
+            "ac1058c7e9d5117f",
+            "7f14a77456407be8"
         ],
         "x": 54,
-        "y": 1299,
+        "y": 1399,
         "w": 1872,
         "h": 142
     },
     {
-        "id": "ef0208012326a558",
+        "id": "fdb14db95ecc5489",
         "type": "group",
-        "z": "5328378e44f89b23",
-        "g": "6e7fd02405f167ad",
+        "z": "a5270bf39d2b1e5f",
+        "g": "9d4745f75b37816d",
         "name": "GET SALE",
         "style": {
             "label": true
         },
         "nodes": [
-            "91942118245d119a",
-            "b3ad9f218683c2e2",
-            "6a2c6f9c3011d0a4",
-            "c3c97beb34b6ae5c",
-            "bc50af897f3af9f5",
-            "410cd671829cf6d9",
-            "21f38fdc3913fd3a",
-            "0bceae9d31c5507b"
+            "ec24e2f9a38a9c56",
+            "3dfc0881926e24b1",
+            "9dc031fb3dd47809",
+            "ccc79a9b87589a0d",
+            "56d7c30edea5a455",
+            "d88f4d039f040eac",
+            "6db64c6ff1f76750",
+            "6497d0e79437e766"
         ],
         "x": 54,
-        "y": 1459,
+        "y": 1559,
         "w": 1552,
         "h": 102
     },
     {
-        "id": "f97c9d8192f0bd5c",
+        "id": "3b12e437c83e0daf",
         "type": "group",
-        "z": "5328378e44f89b23",
-        "g": "6e7fd02405f167ad",
+        "z": "a5270bf39d2b1e5f",
+        "g": "9d4745f75b37816d",
         "name": "GET SALES TOTAIS",
         "style": {
             "label": true
         },
         "nodes": [
-            "dc2282e9a5d8847c",
-            "1e31959ed391a2b1",
-            "6d7cc7df3678af9c",
-            "b8f5a14f64a8b7cb",
-            "f26f111861013a57",
-            "de9725fb735f59ac",
-            "7179a58e7f58a858",
-            "56ff5c66c23af8b7",
-            "1157cf3a8219ed5f",
-            "017f390b84824a64"
+            "f725e856f8536fa5",
+            "af4549b50d1d821d",
+            "bf22b8e71c4d831a",
+            "e431d47ac20af172",
+            "05e86e4e8d3d1d2e",
+            "72ea348eb03bafbb",
+            "1cf8e60b301c5103",
+            "5c8d657e91f0bf57",
+            "40265c08de68bbd9",
+            "36617a0d11f502d9"
         ],
         "x": 54,
-        "y": 1599,
+        "y": 1699,
         "w": 1632,
         "h": 162
     },
     {
-        "id": "311f8a64823d13bc",
+        "id": "dbf002e7839fdaf4",
+        "type": "group",
+        "z": "ee01ea9dc7f8444d",
+        "g": "e61e769088c22705",
+        "name": "by msg.oauth2Request",
+        "style": {
+            "label": true,
+            "fill": "#bfdbef"
+        },
+        "nodes": [
+            "bbb398a4c6b6581d",
+            "0dbd3192fc8e6d8f",
+            "7d1cd69bfec40f16",
+            "5f5889fc9873830c",
+            "5eedef6eb8215636",
+            "1f9670457ea0fdeb",
+            "e92113c4c92e02b9",
+            "6adbb00a164f0d30",
+            "aa78cee9cf6b05a4",
+            "da4c05becf924c6a",
+            "00bcb23670663c56"
+        ],
+        "x": 74,
+        "y": 219
+    },
+    {
+        "id": "c11eb7aff843bd09",
+        "type": "group",
+        "z": "ee01ea9dc7f8444d",
+        "g": "e61e769088c22705",
+        "name": "by node",
+        "style": {
+            "label": true,
+            "fill": "#e3f3d3"
+        },
+        "nodes": [
+            "fa297a2263ccab64",
+            "b09fcda36b29337e",
+            "68ce0e033979d11d",
+            "92a15df57cfde3ad",
+            "be9f8d3e5126b0aa",
+            "457c466345b3c830",
+            "41140191adba1afc"
+        ],
+        "x": 74,
+        "y": 59
+    },
+    {
+        "id": "7d1cd69bfec40f16",
+        "type": "junction",
+        "z": "ee01ea9dc7f8444d",
+        "g": "dbf002e7839fdaf4",
+        "x": 880,
+        "y": 280,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "92a15df57cfde3ad",
+        "type": "junction",
+        "z": "ee01ea9dc7f8444d",
+        "g": "c11eb7aff843bd09",
+        "x": 860,
+        "y": 120,
+        "wires": [
+            [
+                "41140191adba1afc"
+            ]
+        ]
+    },
+    {
+        "id": "0dbd3192fc8e6d8f",
+        "type": "junction",
+        "z": "ee01ea9dc7f8444d",
+        "g": "dbf002e7839fdaf4",
+        "x": 560,
+        "y": 300,
+        "wires": [
+            [
+                "bbb398a4c6b6581d"
+            ]
+        ]
+    },
+    {
+        "id": "f131e02fdc178416",
+        "type": "gauth",
+        "name": "xxx@xxx"
+    },
+    {
+        "id": "ee86852f62926632",
+        "type": "oauth2",
+        "z": "4097a5586d4dda60",
+        "name": "",
+        "container": "oauth2Response",
+        "grant_type": "authorization_code",
+        "access_token_url": " https://api.contaazul.com/oauth2/token",
+        "authorization_endpoint": "https://api.contaazul.com/auth/authorize",
+        "redirect_uri": "/oauth2/redirect_uri",
+        "open_authentication": "",
+        "username": "",
+        "password": "",
+        "client_id": "QwkQtN5hQVHWVfpJDr7J1pamiWjvFDeo",
+        "client_secret": "Sra1MkjDU18SdsO5GTOz6hlTnMvthWM0",
+        "scope": "Product",
+        "client_credentials_in_body": false,
+        "rejectUnauthorized": true,
+        "headers": {},
+        "x": 330,
+        "y": 160,
+        "wires": [
+            [
+                "d7a2041ef2683870"
+            ]
+        ]
+    },
+    {
+        "id": "9e4d3edfde1766b9",
+        "type": "inject",
+        "z": "4097a5586d4dda60",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 140,
+        "y": 160,
+        "wires": [
+            [
+                "ee86852f62926632"
+            ]
+        ]
+    },
+    {
+        "id": "d7a2041ef2683870",
         "type": "debug",
-        "z": "5328378e44f89b23",
-        "g": "c1fbd38512f5c6b5",
+        "z": "4097a5586d4dda60",
+        "name": "debug 6",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 500,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "8c67ec731a3c9cad",
+        "type": "debug",
+        "z": "a5270bf39d2b1e5f",
+        "g": "466b68bd101cc969",
         "name": "Set Global Token",
         "active": false,
         "tosidebar": true,
@@ -351,14 +554,14 @@
         "statusVal": "payload",
         "statusType": "auto",
         "x": 810,
-        "y": 80,
+        "y": 100,
         "wires": []
     },
     {
-        "id": "ad419de749bdb743",
+        "id": "406b0a21329cf8d1",
         "type": "oauth2",
-        "z": "5328378e44f89b23",
-        "g": "c1fbd38512f5c6b5",
+        "z": "a5270bf39d2b1e5f",
+        "g": "466b68bd101cc969",
         "name": "Client Credentials",
         "container": "oauth2Response",
         "grant_type": "authorization_code",
@@ -374,19 +577,19 @@
         "rejectUnauthorized": true,
         "headers": {},
         "x": 390,
-        "y": 80,
+        "y": 100,
         "wires": [
             [
-                "1404f532525a4d71",
-                "85596e28f54d3208"
+                "ceee711fb518653f",
+                "d820ad4eae640b0c"
             ]
         ]
     },
     {
-        "id": "cdf42c22ee81eccb",
+        "id": "27e0ffbe491ea8f5",
         "type": "inject",
-        "z": "5328378e44f89b23",
-        "g": "c1fbd38512f5c6b5",
+        "z": "a5270bf39d2b1e5f",
+        "g": "466b68bd101cc969",
         "name": "Client Credentials",
         "props": [
             {
@@ -400,18 +603,18 @@
         "onceDelay": 0.1,
         "topic": "",
         "x": 190,
-        "y": 80,
+        "y": 120,
         "wires": [
             [
-                "ad419de749bdb743"
+                "10d7fda56335549d"
             ]
         ]
     },
     {
-        "id": "67e3983e289bfe7d",
+        "id": "4642b89e9222ba63",
         "type": "http request",
-        "z": "5328378e44f89b23",
-        "g": "778de4d5542a6d8a",
+        "z": "a5270bf39d2b1e5f",
+        "g": "8eb6a30e696f032d",
         "name": "List product categories",
         "method": "GET",
         "ret": "obj",
@@ -425,18 +628,18 @@
         "senderr": false,
         "headers": [],
         "x": 590,
-        "y": 720,
+        "y": 820,
         "wires": [
             [
-                "b6dd09a252f859d1"
+                "2c35938c1ab9765d"
             ]
         ]
     },
     {
-        "id": "1404f532525a4d71",
+        "id": "ceee711fb518653f",
         "type": "function",
-        "z": "5328378e44f89b23",
-        "g": "c1fbd38512f5c6b5",
+        "z": "a5270bf39d2b1e5f",
+        "g": "466b68bd101cc969",
         "name": "Set Global Token",
         "func": "global.set('refreshToken', msg.oauth2Response.refresh_token);\nglobal.set('accessToken', msg.oauth2Response.access_token);\nglobal.set('tokenType', msg.oauth2Response.token_type);\nglobal.set('expiresIn', msg.oauth2Response.expires_in);\n\nreturn msg;",
         "outputs": 1,
@@ -445,18 +648,18 @@
         "finalize": "",
         "libs": [],
         "x": 610,
-        "y": 80,
+        "y": 100,
         "wires": [
             [
-                "311f8a64823d13bc"
+                "8c67ec731a3c9cad"
             ]
         ]
     },
     {
-        "id": "719648dba782163d",
+        "id": "305f5fe9e6c555a9",
         "type": "function",
-        "z": "5328378e44f89b23",
-        "g": "778de4d5542a6d8a",
+        "z": "a5270bf39d2b1e5f",
+        "g": "8eb6a30e696f032d",
         "name": "Authorization",
         "func": "let accessToken = global.get('accessToken');\n\nmsg.headers = {};\n//msg.headers['Authorization'] = 'Bearer XXXX';\nmsg.headers['Authorization'] = 'Bearer ' + accessToken;\n\n\nreturn msg;",
         "outputs": 1,
@@ -465,18 +668,18 @@
         "finalize": "",
         "libs": [],
         "x": 390,
-        "y": 720,
+        "y": 820,
         "wires": [
             [
-                "67e3983e289bfe7d"
+                "4642b89e9222ba63"
             ]
         ]
     },
     {
-        "id": "b1bfbf95592b3c9f",
+        "id": "af6082a695d10792",
         "type": "inject",
-        "z": "5328378e44f89b23",
-        "g": "778de4d5542a6d8a",
+        "z": "a5270bf39d2b1e5f",
+        "g": "8eb6a30e696f032d",
         "name": "List product categories",
         "props": [
             {
@@ -490,18 +693,18 @@
         "onceDelay": 0.1,
         "topic": "List product categories",
         "x": 200,
-        "y": 720,
+        "y": 820,
         "wires": [
             [
-                "719648dba782163d"
+                "305f5fe9e6c555a9"
             ]
         ]
     },
     {
-        "id": "8407c3ac9d4b317c",
+        "id": "859a498192a464e6",
         "type": "http request",
-        "z": "5328378e44f89b23",
-        "g": "f07e8f33e135a3eb",
+        "z": "a5270bf39d2b1e5f",
+        "g": "ad10637843808906",
         "name": "List products by filters",
         "method": "GET",
         "ret": "obj",
@@ -515,18 +718,18 @@
         "senderr": false,
         "headers": [],
         "x": 580,
-        "y": 900,
+        "y": 1000,
         "wires": [
             [
-                "abd50c2459d2b722"
+                "6d1cc2dfd3f1a263"
             ]
         ]
     },
     {
-        "id": "071a8cc5e71c0603",
+        "id": "bb85a7678e125257",
         "type": "http request",
-        "z": "5328378e44f89b23",
-        "g": "1a8ad4193dc356bb",
+        "z": "a5270bf39d2b1e5f",
+        "g": "520c4afdd2a2c58c",
         "name": "List sales by filters",
         "method": "GET",
         "ret": "obj",
@@ -540,18 +743,18 @@
         "senderr": false,
         "headers": [],
         "x": 590,
-        "y": 1180,
+        "y": 1280,
         "wires": [
             [
-                "9d634a726be7ab73"
+                "288faaaba62e9a21"
             ]
         ]
     },
     {
-        "id": "c1e324ec0d8f36ca",
+        "id": "8668d2144ef6f1c7",
         "type": "http request",
-        "z": "5328378e44f89b23",
-        "g": "50be9245bba02fe7",
+        "z": "a5270bf39d2b1e5f",
+        "g": "e90afc02c540d6bf",
         "name": "List sellers",
         "method": "GET",
         "ret": "obj",
@@ -568,15 +771,15 @@
         "y": 2200,
         "wires": [
             [
-                "b26406af77fa6298"
+                "1d606b2c0278a39d"
             ]
         ]
     },
     {
-        "id": "0e76ae143ab92f65",
+        "id": "d1ba341040cea0c3",
         "type": "inject",
-        "z": "5328378e44f89b23",
-        "g": "c1ff3c38b85811f4",
+        "z": "a5270bf39d2b1e5f",
+        "g": "7e1a2f9059f99060",
         "name": "Refresh Token",
         "props": [
             {
@@ -595,18 +798,18 @@
         "payload": "",
         "payloadType": "date",
         "x": 180,
-        "y": 220,
+        "y": 240,
         "wires": [
             [
-                "676ebe1c05eb164e"
+                "aa24d69faa1640cd"
             ]
         ]
     },
     {
-        "id": "676ebe1c05eb164e",
+        "id": "aa24d69faa1640cd",
         "type": "function",
-        "z": "5328378e44f89b23",
-        "g": "c1ff3c38b85811f4",
+        "z": "a5270bf39d2b1e5f",
+        "g": "7e1a2f9059f99060",
         "name": "Refresh Token",
         "func": "let refreshToken = global.get('refreshToken');\n\nmsg.oauth2Request = { \n    \"access_token_url\": \"https://api.contaazul.com/oauth2/token\",\n    \"credentials\": {\n        \"grant_type\": \"refresh_token\",\n        \"client_id\": \"pDcX0lJRsUfWovh5kAOHdILX8W53bcnE\",\n        \"client_secret\": \"tcRJQdy2s9bKoJAFJRSJh6ycHuBY2emo\",\n        \"scope\": \"sales\",\n        \"refresh_token\": refreshToken   \n    },\n};\nreturn msg;",
         "outputs": 1,
@@ -615,18 +818,18 @@
         "finalize": "",
         "libs": [],
         "x": 400,
-        "y": 220,
+        "y": 240,
         "wires": [
             [
-                "fd1cfb17066595ea"
+                "efd1a2a910ca1051"
             ]
         ]
     },
     {
-        "id": "fd1cfb17066595ea",
+        "id": "efd1a2a910ca1051",
         "type": "oauth2",
-        "z": "5328378e44f89b23",
-        "g": "c1ff3c38b85811f4",
+        "z": "a5270bf39d2b1e5f",
+        "g": "7e1a2f9059f99060",
         "name": "Set by msg.oauth2Request",
         "container": "oauth2Response",
         "grant_type": "set_by_credentials",
@@ -638,18 +841,18 @@
         "scope": "*",
         "headers": {},
         "x": 660,
-        "y": 220,
+        "y": 240,
         "wires": [
             [
-                "96c6cefb8ed68c71"
+                "a8fca004e704e071"
             ]
         ]
     },
     {
-        "id": "96c6cefb8ed68c71",
+        "id": "a8fca004e704e071",
         "type": "function",
-        "z": "5328378e44f89b23",
-        "g": "c1ff3c38b85811f4",
+        "z": "a5270bf39d2b1e5f",
+        "g": "7e1a2f9059f99060",
         "name": "Set refreshToken",
         "func": "if (msg.oauth2Response.refreshToken) {\n    global.set('refreshToken',msg.oauth2Response.refreshToken);\n}\nreturn msg;",
         "outputs": 1,
@@ -658,18 +861,18 @@
         "finalize": "",
         "libs": [],
         "x": 890,
-        "y": 220,
+        "y": 240,
         "wires": [
             [
-                "07d62311e3d86ba7"
+                "9e9332c792dbdc01"
             ]
         ]
     },
     {
-        "id": "07d62311e3d86ba7",
+        "id": "9e9332c792dbdc01",
         "type": "debug",
-        "z": "5328378e44f89b23",
-        "g": "c1ff3c38b85811f4",
+        "z": "a5270bf39d2b1e5f",
+        "g": "7e1a2f9059f99060",
         "name": "Refresh Token",
         "active": false,
         "tosidebar": true,
@@ -680,14 +883,14 @@
         "statusVal": "payload",
         "statusType": "auto",
         "x": 1080,
-        "y": 220,
+        "y": 240,
         "wires": []
     },
     {
-        "id": "85596e28f54d3208",
+        "id": "d820ad4eae640b0c",
         "type": "debug",
-        "z": "5328378e44f89b23",
-        "g": "c1fbd38512f5c6b5",
+        "z": "a5270bf39d2b1e5f",
+        "g": "466b68bd101cc969",
         "name": "Client Credentials",
         "active": true,
         "tosidebar": true,
@@ -698,14 +901,14 @@
         "statusVal": "payload",
         "statusType": "auto",
         "x": 610,
-        "y": 120,
+        "y": 140,
         "wires": []
     },
     {
-        "id": "b26406af77fa6298",
+        "id": "1d606b2c0278a39d",
         "type": "debug",
-        "z": "5328378e44f89b23",
-        "g": "50be9245bba02fe7",
+        "z": "a5270bf39d2b1e5f",
+        "g": "e90afc02c540d6bf",
         "name": "List sellers",
         "active": true,
         "tosidebar": true,
@@ -720,10 +923,10 @@
         "wires": []
     },
     {
-        "id": "3909dd54f8269fa0",
+        "id": "dbc564b793ab2147",
         "type": "debug",
-        "z": "5328378e44f89b23",
-        "g": "1a8ad4193dc356bb",
+        "z": "a5270bf39d2b1e5f",
+        "g": "520c4afdd2a2c58c",
         "name": "List sales by filters",
         "active": true,
         "tosidebar": true,
@@ -734,14 +937,14 @@
         "statusVal": "payload",
         "statusType": "auto",
         "x": 1350,
-        "y": 1200,
+        "y": 1300,
         "wires": []
     },
     {
-        "id": "0bbd5636b17709d1",
+        "id": "7f682d4dd3a7350e",
         "type": "debug",
-        "z": "5328378e44f89b23",
-        "g": "f07e8f33e135a3eb",
+        "z": "a5270bf39d2b1e5f",
+        "g": "ad10637843808906",
         "name": "List products by filters (otherwise)",
         "active": true,
         "tosidebar": true,
@@ -752,14 +955,14 @@
         "statusVal": "payload",
         "statusType": "auto",
         "x": 1060,
-        "y": 980,
+        "y": 1080,
         "wires": []
     },
     {
-        "id": "afad95bde58397ef",
+        "id": "523bdef02e031da3",
         "type": "debug",
-        "z": "5328378e44f89b23",
-        "g": "778de4d5542a6d8a",
+        "z": "a5270bf39d2b1e5f",
+        "g": "8eb6a30e696f032d",
         "name": "List product categories",
         "active": false,
         "tosidebar": true,
@@ -770,14 +973,14 @@
         "statusVal": "payload",
         "statusType": "auto",
         "x": 1030,
-        "y": 720,
+        "y": 820,
         "wires": []
     },
     {
-        "id": "efe332b947f43eef",
+        "id": "b6a3304892da3876",
         "type": "debug",
-        "z": "5328378e44f89b23",
-        "g": "befb70dbaf139f8d",
+        "z": "a5270bf39d2b1e5f",
+        "g": "d4955d968e26a214",
         "name": "sales-items",
         "active": false,
         "tosidebar": true,
@@ -788,14 +991,14 @@
         "statusVal": "payload",
         "statusType": "auto",
         "x": 1390,
-        "y": 1400,
+        "y": 1500,
         "wires": []
     },
     {
-        "id": "feaefbe2d6d09d02",
+        "id": "8394a30dc9e26b4a",
         "type": "function",
-        "z": "5328378e44f89b23",
-        "g": "befb70dbaf139f8d",
+        "z": "a5270bf39d2b1e5f",
+        "g": "d4955d968e26a214",
         "name": "List sale items by filters",
         "func": "let id = msg.payload.id;\nlet accessToken = global.get('accessToken');\n\nmsg.headers = {};\nmsg.headers['Authorization'] = 'Bearer ' + accessToken;\nmsg.url = \"https://api.contaazul.com/v1/sales/\" + id + \"/items\";\nmsg.contaazul = id;\n\nreturn msg;",
         "outputs": 1,
@@ -804,18 +1007,18 @@
         "finalize": "",
         "libs": [],
         "x": 670,
-        "y": 1380,
+        "y": 1480,
         "wires": [
             [
-                "4bfa6bde8f7356e5"
+                "38ba0d7fa969840f"
             ]
         ]
     },
     {
-        "id": "49389ee7af39b366",
+        "id": "559f581f0b47ea55",
         "type": "split",
-        "z": "5328378e44f89b23",
-        "g": "1a8ad4193dc356bb",
+        "z": "a5270bf39d2b1e5f",
+        "g": "520c4afdd2a2c58c",
         "name": "",
         "splt": "\\n",
         "spltType": "str",
@@ -824,18 +1027,18 @@
         "stream": false,
         "addname": "",
         "x": 990,
-        "y": 1140,
+        "y": 1240,
         "wires": [
             [
-                "91b15223c4efa5df"
+                "85400eee0244b9bf"
             ]
         ]
     },
     {
-        "id": "4c11ab15a0c33e51",
+        "id": "c3a4a71d41598827",
         "type": "change",
-        "z": "5328378e44f89b23",
-        "g": "a1cdd94000350d25",
+        "z": "a5270bf39d2b1e5f",
+        "g": "3ce7547e36ce59f3",
         "name": "accessToken",
         "rules": [
             {
@@ -852,18 +1055,18 @@
         "to": "",
         "reg": false,
         "x": 510,
-        "y": 320,
+        "y": 420,
         "wires": [
             [
-                "1c7feb9035e1eaf5"
+                "1809fd1bf70e37c1"
             ]
         ]
     },
     {
-        "id": "1c7feb9035e1eaf5",
+        "id": "1809fd1bf70e37c1",
         "type": "debug",
-        "z": "5328378e44f89b23",
-        "g": "a1cdd94000350d25",
+        "z": "a5270bf39d2b1e5f",
+        "g": "3ce7547e36ce59f3",
         "name": "accessToken",
         "active": true,
         "tosidebar": true,
@@ -874,14 +1077,14 @@
         "statusVal": "payload",
         "statusType": "auto",
         "x": 670,
-        "y": 320,
+        "y": 420,
         "wires": []
     },
     {
-        "id": "90fb053a44837499",
+        "id": "4127bb1788d9d2ac",
         "type": "inject",
-        "z": "5328378e44f89b23",
-        "g": "a1cdd94000350d25",
+        "z": "a5270bf39d2b1e5f",
+        "g": "3ce7547e36ce59f3",
         "name": "Valida Variaveis Globais",
         "props": [
             {
@@ -895,21 +1098,21 @@
         "onceDelay": 0.1,
         "topic": "",
         "x": 200,
-        "y": 400,
+        "y": 500,
         "wires": [
             [
-                "4c11ab15a0c33e51",
-                "c118f47ec2ba6053",
-                "019252c2c93b6e10",
-                "c3e2173ea1c35bd8"
+                "c3a4a71d41598827",
+                "c3df22dd001e6edf",
+                "1e3bb891e03d3d9a",
+                "5b03b7211002b51c"
             ]
         ]
     },
     {
-        "id": "c118f47ec2ba6053",
+        "id": "c3df22dd001e6edf",
         "type": "change",
-        "z": "5328378e44f89b23",
-        "g": "a1cdd94000350d25",
+        "z": "a5270bf39d2b1e5f",
+        "g": "3ce7547e36ce59f3",
         "name": "refreshToken",
         "rules": [
             {
@@ -926,18 +1129,18 @@
         "to": "",
         "reg": false,
         "x": 510,
-        "y": 380,
+        "y": 480,
         "wires": [
             [
-                "9d552f3f0f6fa0ca"
+                "415fb04725a88f1f"
             ]
         ]
     },
     {
-        "id": "9d552f3f0f6fa0ca",
+        "id": "415fb04725a88f1f",
         "type": "debug",
-        "z": "5328378e44f89b23",
-        "g": "a1cdd94000350d25",
+        "z": "a5270bf39d2b1e5f",
+        "g": "3ce7547e36ce59f3",
         "name": "refreshToken",
         "active": true,
         "tosidebar": true,
@@ -948,14 +1151,14 @@
         "statusVal": "payload",
         "statusType": "auto",
         "x": 670,
-        "y": 380,
+        "y": 480,
         "wires": []
     },
     {
-        "id": "019252c2c93b6e10",
+        "id": "1e3bb891e03d3d9a",
         "type": "change",
-        "z": "5328378e44f89b23",
-        "g": "a1cdd94000350d25",
+        "z": "a5270bf39d2b1e5f",
+        "g": "3ce7547e36ce59f3",
         "name": "tokenType",
         "rules": [
             {
@@ -972,18 +1175,18 @@
         "to": "",
         "reg": false,
         "x": 510,
-        "y": 440,
+        "y": 540,
         "wires": [
             [
-                "bdfc034cbe151e20"
+                "361f24fcab9e4941"
             ]
         ]
     },
     {
-        "id": "bdfc034cbe151e20",
+        "id": "361f24fcab9e4941",
         "type": "debug",
-        "z": "5328378e44f89b23",
-        "g": "a1cdd94000350d25",
+        "z": "a5270bf39d2b1e5f",
+        "g": "3ce7547e36ce59f3",
         "name": "tokenType",
         "active": true,
         "tosidebar": true,
@@ -994,14 +1197,14 @@
         "statusVal": "payload",
         "statusType": "auto",
         "x": 670,
-        "y": 440,
+        "y": 540,
         "wires": []
     },
     {
-        "id": "c3e2173ea1c35bd8",
+        "id": "5b03b7211002b51c",
         "type": "change",
-        "z": "5328378e44f89b23",
-        "g": "a1cdd94000350d25",
+        "z": "a5270bf39d2b1e5f",
+        "g": "3ce7547e36ce59f3",
         "name": "expiresIn",
         "rules": [
             {
@@ -1018,18 +1221,18 @@
         "to": "",
         "reg": false,
         "x": 500,
-        "y": 500,
+        "y": 600,
         "wires": [
             [
-                "8cc18731337714ae"
+                "7cbc36987152bf6d"
             ]
         ]
     },
     {
-        "id": "8cc18731337714ae",
+        "id": "7cbc36987152bf6d",
         "type": "debug",
-        "z": "5328378e44f89b23",
-        "g": "a1cdd94000350d25",
+        "z": "a5270bf39d2b1e5f",
+        "g": "3ce7547e36ce59f3",
         "name": "expiresIn",
         "active": true,
         "tosidebar": true,
@@ -1040,14 +1243,14 @@
         "statusVal": "payload",
         "statusType": "auto",
         "x": 660,
-        "y": 500,
+        "y": 600,
         "wires": []
     },
     {
-        "id": "4bfa6bde8f7356e5",
+        "id": "38ba0d7fa969840f",
         "type": "http request",
-        "z": "5328378e44f89b23",
-        "g": "befb70dbaf139f8d",
+        "z": "a5270bf39d2b1e5f",
+        "g": "d4955d968e26a214",
         "name": "msg.url",
         "method": "GET",
         "ret": "obj",
@@ -1061,18 +1264,18 @@
         "senderr": false,
         "headers": [],
         "x": 860,
-        "y": 1380,
+        "y": 1480,
         "wires": [
             [
-                "827061443a43a6dc"
+                "e68697b67f6f0aa1"
             ]
         ]
     },
     {
-        "id": "91942118245d119a",
+        "id": "ec24e2f9a38a9c56",
         "type": "function",
-        "z": "5328378e44f89b23",
-        "g": "ef0208012326a558",
+        "z": "a5270bf39d2b1e5f",
+        "g": "fdb14db95ecc5489",
         "name": "Get sale by id",
         "func": "let id = msg.payload.id;\nlet accessToken = global.get('accessToken');\n\nmsg.headers = {};\nmsg.headers['Authorization'] = 'Bearer ' + accessToken;\nmsg.url = \"https://api.contaazul.com/v1/sales/\" + id;\n\nreturn msg;",
         "outputs": 1,
@@ -1081,18 +1284,18 @@
         "finalize": "",
         "libs": [],
         "x": 560,
-        "y": 1520,
+        "y": 1620,
         "wires": [
             [
-                "c3c97beb34b6ae5c"
+                "ccc79a9b87589a0d"
             ]
         ]
     },
     {
-        "id": "187932e0bcb6406b",
+        "id": "e507970da3ab090e",
         "type": "http request",
-        "z": "5328378e44f89b23",
-        "g": "50be9245bba02fe7",
+        "z": "a5270bf39d2b1e5f",
+        "g": "e90afc02c540d6bf",
         "name": "List services by filters",
         "method": "GET",
         "ret": "obj",
@@ -1109,15 +1312,15 @@
         "y": 2140,
         "wires": [
             [
-                "9ee97d74a7aed945"
+                "98b3bfc077fcc178"
             ]
         ]
     },
     {
-        "id": "9ee97d74a7aed945",
+        "id": "98b3bfc077fcc178",
         "type": "debug",
-        "z": "5328378e44f89b23",
-        "g": "50be9245bba02fe7",
+        "z": "a5270bf39d2b1e5f",
+        "g": "e90afc02c540d6bf",
         "name": "List services by filters",
         "active": true,
         "tosidebar": true,
@@ -1132,10 +1335,10 @@
         "wires": []
     },
     {
-        "id": "20adad00ef64b0c1",
+        "id": "171b661d899461a7",
         "type": "inject",
-        "z": "5328378e44f89b23",
-        "g": "50be9245bba02fe7",
+        "z": "a5270bf39d2b1e5f",
+        "g": "e90afc02c540d6bf",
         "name": "List services by filters",
         "props": [
             {
@@ -1152,15 +1355,15 @@
         "y": 2140,
         "wires": [
             [
-                "f79591417e4b3de4"
+                "8363ee16734aa229"
             ]
         ]
     },
     {
-        "id": "f79591417e4b3de4",
+        "id": "8363ee16734aa229",
         "type": "function",
-        "z": "5328378e44f89b23",
-        "g": "50be9245bba02fe7",
+        "z": "a5270bf39d2b1e5f",
+        "g": "e90afc02c540d6bf",
         "name": "Authorization",
         "func": "let accessToken = global.get('accessToken');\n\nmsg.headers = {};\n//msg.headers['Authorization'] = 'Bearer xxx';\nmsg.headers['Authorization'] = 'Bearer ' + accessToken;\n\n\nreturn msg;",
         "outputs": 1,
@@ -1172,15 +1375,15 @@
         "y": 2140,
         "wires": [
             [
-                "187932e0bcb6406b"
+                "e507970da3ab090e"
             ]
         ]
     },
     {
-        "id": "552878a0d1690ea7",
+        "id": "a9f089bb889079ba",
         "type": "inject",
-        "z": "5328378e44f89b23",
-        "g": "f07e8f33e135a3eb",
+        "z": "a5270bf39d2b1e5f",
+        "g": "ad10637843808906",
         "name": "List products by filters",
         "props": [
             {
@@ -1194,18 +1397,18 @@
         "onceDelay": 0.1,
         "topic": "List products by filters",
         "x": 200,
-        "y": 900,
+        "y": 1000,
         "wires": [
             [
-                "01365da054b0a791"
+                "cf6a8a293a3416f0"
             ]
         ]
     },
     {
-        "id": "01365da054b0a791",
+        "id": "cf6a8a293a3416f0",
         "type": "function",
-        "z": "5328378e44f89b23",
-        "g": "f07e8f33e135a3eb",
+        "z": "a5270bf39d2b1e5f",
+        "g": "ad10637843808906",
         "name": "Authorization",
         "func": "let accessToken = global.get('accessToken');\n\nmsg.headers = {};\n//msg.headers['Authorization'] = 'Bearer xxx';\nmsg.headers['Authorization'] = 'Bearer ' + accessToken;\n\n\nreturn msg;",
         "outputs": 1,
@@ -1214,18 +1417,18 @@
         "finalize": "",
         "libs": [],
         "x": 390,
-        "y": 900,
+        "y": 1000,
         "wires": [
             [
-                "8407c3ac9d4b317c"
+                "859a498192a464e6"
             ]
         ]
     },
     {
-        "id": "b0f0534e1cb7b60c",
+        "id": "00b57c33cfb11cbb",
         "type": "function",
-        "z": "5328378e44f89b23",
-        "g": "50be9245bba02fe7",
+        "z": "a5270bf39d2b1e5f",
+        "g": "e90afc02c540d6bf",
         "name": "Authorization",
         "func": "let accessToken = global.get('accessToken');\n\nmsg.headers = {};\n//msg.headers['Authorization'] = 'Bearer xxx';\nmsg.headers['Authorization'] = 'Bearer ' + accessToken;\n\n\nreturn msg;",
         "outputs": 1,
@@ -1237,15 +1440,15 @@
         "y": 2200,
         "wires": [
             [
-                "c1e324ec0d8f36ca"
+                "8668d2144ef6f1c7"
             ]
         ]
     },
     {
-        "id": "da1c6bc53c99c613",
+        "id": "a562bd5b29300458",
         "type": "inject",
-        "z": "5328378e44f89b23",
-        "g": "50be9245bba02fe7",
+        "z": "a5270bf39d2b1e5f",
+        "g": "e90afc02c540d6bf",
         "name": "List sellers",
         "props": [
             {
@@ -1262,15 +1465,15 @@
         "y": 2200,
         "wires": [
             [
-                "b0f0534e1cb7b60c"
+                "00b57c33cfb11cbb"
             ]
         ]
     },
     {
-        "id": "b8f5a14f64a8b7cb",
+        "id": "e431d47ac20af172",
         "type": "http request",
-        "z": "5328378e44f89b23",
-        "g": "f97c9d8192f0bd5c",
+        "z": "a5270bf39d2b1e5f",
+        "g": "3b12e437c83e0daf",
         "name": "Get sales totals by filter",
         "method": "GET",
         "ret": "obj",
@@ -1284,18 +1487,18 @@
         "senderr": false,
         "headers": [],
         "x": 610,
-        "y": 1680,
+        "y": 1780,
         "wires": [
             [
-                "f26f111861013a57"
+                "05e86e4e8d3d1d2e"
             ]
         ]
     },
     {
-        "id": "6d7cc7df3678af9c",
+        "id": "bf22b8e71c4d831a",
         "type": "debug",
-        "z": "5328378e44f89b23",
-        "g": "f97c9d8192f0bd5c",
+        "z": "a5270bf39d2b1e5f",
+        "g": "3b12e437c83e0daf",
         "name": "Get sales totals by filter",
         "active": false,
         "tosidebar": true,
@@ -1306,14 +1509,14 @@
         "statusVal": "payload",
         "statusType": "auto",
         "x": 1330,
-        "y": 1680,
+        "y": 1780,
         "wires": []
     },
     {
-        "id": "1e31959ed391a2b1",
+        "id": "af4549b50d1d821d",
         "type": "function",
-        "z": "5328378e44f89b23",
-        "g": "f97c9d8192f0bd5c",
+        "z": "a5270bf39d2b1e5f",
+        "g": "3b12e437c83e0daf",
         "name": "Authorization",
         "func": "let accessToken = global.get('accessToken');\n\nmsg.headers = {};\n//msg.headers['Authorization'] = 'Bearer xxx';\nmsg.headers['Authorization'] = 'Bearer ' + accessToken;\n\n\nreturn msg;",
         "outputs": 1,
@@ -1322,18 +1525,18 @@
         "finalize": "",
         "libs": [],
         "x": 410,
-        "y": 1680,
+        "y": 1780,
         "wires": [
             [
-                "b8f5a14f64a8b7cb"
+                "e431d47ac20af172"
             ]
         ]
     },
     {
-        "id": "dc2282e9a5d8847c",
+        "id": "f725e856f8536fa5",
         "type": "inject",
-        "z": "5328378e44f89b23",
-        "g": "f97c9d8192f0bd5c",
+        "z": "a5270bf39d2b1e5f",
+        "g": "3b12e437c83e0daf",
         "name": "Get sales totals by filter",
         "props": [
             {
@@ -1347,18 +1550,18 @@
         "onceDelay": 0.1,
         "topic": "Get sales totals by filter",
         "x": 210,
-        "y": 1680,
+        "y": 1780,
         "wires": [
             [
-                "1e31959ed391a2b1"
+                "af4549b50d1d821d"
             ]
         ]
     },
     {
-        "id": "05c29d0295a4f543",
+        "id": "7c80bb99fb8dd6cf",
         "type": "inject",
-        "z": "5328378e44f89b23",
-        "g": "1a8ad4193dc356bb",
+        "z": "a5270bf39d2b1e5f",
+        "g": "520c4afdd2a2c58c",
         "name": "List sales",
         "props": [
             {
@@ -1372,18 +1575,18 @@
         "onceDelay": 0.1,
         "topic": "List sales",
         "x": 200,
-        "y": 1180,
+        "y": 1280,
         "wires": [
             [
-                "5a2812d1760660fc"
+                "9e853932e5246287"
             ]
         ]
     },
     {
-        "id": "5a2812d1760660fc",
+        "id": "9e853932e5246287",
         "type": "function",
-        "z": "5328378e44f89b23",
-        "g": "1a8ad4193dc356bb",
+        "z": "a5270bf39d2b1e5f",
+        "g": "520c4afdd2a2c58c",
         "name": "Authorization",
         "func": "let accessToken = global.get('accessToken');\n\nmsg.headers = {};\n//msg.headers['Authorization'] = 'Bearer xxx';\nmsg.headers['Authorization'] = 'Bearer ' + accessToken;\n\n\nreturn msg;",
         "outputs": 1,
@@ -1392,18 +1595,18 @@
         "finalize": "",
         "libs": [],
         "x": 410,
-        "y": 1180,
+        "y": 1280,
         "wires": [
             [
-                "071a8cc5e71c0603"
+                "bb85a7678e125257"
             ]
         ]
     },
     {
-        "id": "32e1850c7840ff48",
+        "id": "b43dde4d98c875f2",
         "type": "http request",
-        "z": "5328378e44f89b23",
-        "g": "8a37af58e6a7a82b",
+        "z": "a5270bf39d2b1e5f",
+        "g": "6096fe5c52cfd343",
         "name": "List customers by filters",
         "method": "GET",
         "ret": "obj",
@@ -1417,18 +1620,18 @@
         "senderr": false,
         "headers": [],
         "x": 570,
-        "y": 1980,
+        "y": 2000,
         "wires": [
             [
-                "d342ed272c64a446"
+                "8ef7304f87a2b516"
             ]
         ]
     },
     {
-        "id": "5e688a459b07d609",
+        "id": "e94038d695093f33",
         "type": "debug",
-        "z": "5328378e44f89b23",
-        "g": "8a37af58e6a7a82b",
+        "z": "a5270bf39d2b1e5f",
+        "g": "6096fe5c52cfd343",
         "name": "List customers by filters",
         "active": false,
         "tosidebar": true,
@@ -1439,14 +1642,14 @@
         "statusVal": "payload",
         "statusType": "auto",
         "x": 1310,
-        "y": 1980,
+        "y": 2000,
         "wires": []
     },
     {
-        "id": "f36f9fc23b484ae5",
+        "id": "af723a6dc70c8d0c",
         "type": "function",
-        "z": "5328378e44f89b23",
-        "g": "8a37af58e6a7a82b",
+        "z": "a5270bf39d2b1e5f",
+        "g": "6096fe5c52cfd343",
         "name": "Authorization",
         "func": "let accessToken = global.get('accessToken');\n\nmsg.headers = {};\n//msg.headers['Authorization'] = 'Bearer xxx';\nmsg.headers['Authorization'] = 'Bearer ' + accessToken;\n\n\nreturn msg;",
         "outputs": 1,
@@ -1455,18 +1658,18 @@
         "finalize": "",
         "libs": [],
         "x": 370,
-        "y": 1980,
+        "y": 2000,
         "wires": [
             [
-                "32e1850c7840ff48"
+                "b43dde4d98c875f2"
             ]
         ]
     },
     {
-        "id": "e208510019ac2a02",
+        "id": "d437ac64422b7229",
         "type": "inject",
-        "z": "5328378e44f89b23",
-        "g": "8a37af58e6a7a82b",
+        "z": "a5270bf39d2b1e5f",
+        "g": "6096fe5c52cfd343",
         "name": "List customers by filters",
         "props": [
             {
@@ -1480,18 +1683,18 @@
         "onceDelay": 0.1,
         "topic": "List customers by filters",
         "x": 180,
-        "y": 1980,
+        "y": 2000,
         "wires": [
             [
-                "f36f9fc23b484ae5"
+                "af723a6dc70c8d0c"
             ]
         ]
     },
     {
-        "id": "5b7a466954c986c8",
+        "id": "7fd9165a4da698af",
         "type": "http request",
-        "z": "5328378e44f89b23",
-        "g": "50be9245bba02fe7",
+        "z": "a5270bf39d2b1e5f",
+        "g": "e90afc02c540d6bf",
         "name": "Get current user plans",
         "method": "GET",
         "ret": "obj",
@@ -1508,15 +1711,15 @@
         "y": 2260,
         "wires": [
             [
-                "eba8c7615ad933dc"
+                "9d8a234b6c840cec"
             ]
         ]
     },
     {
-        "id": "eba8c7615ad933dc",
+        "id": "9d8a234b6c840cec",
         "type": "debug",
-        "z": "5328378e44f89b23",
-        "g": "50be9245bba02fe7",
+        "z": "a5270bf39d2b1e5f",
+        "g": "e90afc02c540d6bf",
         "name": "Get current user plans",
         "active": true,
         "tosidebar": true,
@@ -1531,10 +1734,10 @@
         "wires": []
     },
     {
-        "id": "bff216603791337c",
+        "id": "f1b30d04c9b97d4a",
         "type": "function",
-        "z": "5328378e44f89b23",
-        "g": "50be9245bba02fe7",
+        "z": "a5270bf39d2b1e5f",
+        "g": "e90afc02c540d6bf",
         "name": "Authorization",
         "func": "let accessToken = global.get('accessToken');\n\nmsg.headers = {};\n//msg.headers['Authorization'] = 'Bearer xxx';\nmsg.headers['Authorization'] = 'Bearer ' + accessToken;\n\n\nreturn msg;",
         "outputs": 1,
@@ -1546,15 +1749,15 @@
         "y": 2260,
         "wires": [
             [
-                "5b7a466954c986c8"
+                "7fd9165a4da698af"
             ]
         ]
     },
     {
-        "id": "22740ad29cb483e7",
+        "id": "72686b373891ff9a",
         "type": "inject",
-        "z": "5328378e44f89b23",
-        "g": "50be9245bba02fe7",
+        "z": "a5270bf39d2b1e5f",
+        "g": "e90afc02c540d6bf",
         "name": "Get current user plans",
         "props": [
             {
@@ -1571,15 +1774,15 @@
         "y": 2260,
         "wires": [
             [
-                "bff216603791337c"
+                "f1b30d04c9b97d4a"
             ]
         ]
     },
     {
-        "id": "91b15223c4efa5df",
+        "id": "85400eee0244b9bf",
         "type": "delay",
-        "z": "5328378e44f89b23",
-        "g": "1a8ad4193dc356bb",
+        "z": "a5270bf39d2b1e5f",
+        "g": "520c4afdd2a2c58c",
         "name": "",
         "pauseType": "rate",
         "timeout": "5",
@@ -1594,20 +1797,20 @@
         "allowrate": false,
         "outputs": 1,
         "x": 1130,
-        "y": 1140,
+        "y": 1240,
         "wires": [
             [
-                "3909dd54f8269fa0",
-                "feaefbe2d6d09d02",
-                "113493730f69bf9b"
+                "dbc564b793ab2147",
+                "8394a30dc9e26b4a",
+                "7bdb4f61e6364d06"
             ]
         ]
     },
     {
-        "id": "b3ad9f218683c2e2",
+        "id": "3dfc0881926e24b1",
         "type": "inject",
-        "z": "5328378e44f89b23",
-        "g": "ef0208012326a558",
+        "z": "a5270bf39d2b1e5f",
+        "g": "fdb14db95ecc5489",
         "name": "Get sale by id",
         "props": [
             {
@@ -1621,18 +1824,18 @@
         "onceDelay": 0.1,
         "topic": "Get sale by id",
         "x": 170,
-        "y": 1520,
+        "y": 1620,
         "wires": [
             [
-                "6a2c6f9c3011d0a4"
+                "9dc031fb3dd47809"
             ]
         ]
     },
     {
-        "id": "6a2c6f9c3011d0a4",
+        "id": "9dc031fb3dd47809",
         "type": "change",
-        "z": "5328378e44f89b23",
-        "g": "ef0208012326a558",
+        "z": "a5270bf39d2b1e5f",
+        "g": "fdb14db95ecc5489",
         "name": "",
         "rules": [
             {
@@ -1649,18 +1852,18 @@
         "to": "",
         "reg": false,
         "x": 350,
-        "y": 1520,
+        "y": 1620,
         "wires": [
             [
-                "91942118245d119a"
+                "ec24e2f9a38a9c56"
             ]
         ]
     },
     {
-        "id": "47f38711ca8fa602",
+        "id": "71b447e4ec057c50",
         "type": "inject",
-        "z": "5328378e44f89b23",
-        "g": "befb70dbaf139f8d",
+        "z": "a5270bf39d2b1e5f",
+        "g": "d4955d968e26a214",
         "name": "List sale items by filters",
         "props": [
             {
@@ -1674,18 +1877,18 @@
         "onceDelay": 0.1,
         "topic": "List sale items by filters",
         "x": 200,
-        "y": 1380,
+        "y": 1480,
         "wires": [
             [
-                "2cc03b489135af1f"
+                "e5b6127830cd9203"
             ]
         ]
     },
     {
-        "id": "2cc03b489135af1f",
+        "id": "e5b6127830cd9203",
         "type": "change",
-        "z": "5328378e44f89b23",
-        "g": "befb70dbaf139f8d",
+        "z": "a5270bf39d2b1e5f",
+        "g": "d4955d968e26a214",
         "name": "",
         "rules": [
             {
@@ -1702,18 +1905,18 @@
         "to": "",
         "reg": false,
         "x": 410,
-        "y": 1380,
+        "y": 1480,
         "wires": [
             [
-                "feaefbe2d6d09d02"
+                "8394a30dc9e26b4a"
             ]
         ]
     },
     {
-        "id": "a30be28b30a798d7",
+        "id": "690fdab22117e084",
         "type": "GSheet",
-        "z": "5328378e44f89b23",
-        "g": "778de4d5542a6d8a",
+        "z": "a5270bf39d2b1e5f",
+        "g": "8eb6a30e696f032d",
         "creds": "f131e02fdc178416",
         "method": "append",
         "action": "",
@@ -1722,16 +1925,16 @@
         "flatten": false,
         "name": "product_categories",
         "x": 1590,
-        "y": 660,
+        "y": 760,
         "wires": [
             []
         ]
     },
     {
-        "id": "9bad40bafb10d940",
+        "id": "04393361ea052f4e",
         "type": "function",
-        "z": "5328378e44f89b23",
-        "g": "778de4d5542a6d8a",
+        "z": "a5270bf39d2b1e5f",
+        "g": "8eb6a30e696f032d",
         "name": "GSHEET - product_categories",
         "func": "var id = msg.payload.id;\nvar name = msg.payload.name;\n\nmsg.payload = [id, name]\n\nreturn msg;",
         "outputs": 1,
@@ -1740,18 +1943,18 @@
         "finalize": "",
         "libs": [],
         "x": 1350,
-        "y": 660,
+        "y": 760,
         "wires": [
             [
-                "a30be28b30a798d7"
+                "690fdab22117e084"
             ]
         ]
     },
     {
-        "id": "ef4e53d77125a422",
+        "id": "8859ca37fde68cd8",
         "type": "split",
-        "z": "5328378e44f89b23",
-        "g": "778de4d5542a6d8a",
+        "z": "a5270bf39d2b1e5f",
+        "g": "8eb6a30e696f032d",
         "name": "",
         "splt": "\\n",
         "spltType": "str",
@@ -1760,18 +1963,18 @@
         "stream": false,
         "addname": "",
         "x": 970,
-        "y": 660,
+        "y": 760,
         "wires": [
             [
-                "7a73930fc454e110"
+                "6e99bacf77e40947"
             ]
         ]
     },
     {
-        "id": "2e3be6d7b67bc0d5",
+        "id": "8632dc1f7cae2e36",
         "type": "split",
-        "z": "5328378e44f89b23",
-        "g": "f07e8f33e135a3eb",
+        "z": "a5270bf39d2b1e5f",
+        "g": "ad10637843808906",
         "name": "",
         "splt": "\\n",
         "spltType": "str",
@@ -1780,18 +1983,18 @@
         "stream": false,
         "addname": "",
         "x": 970,
-        "y": 860,
+        "y": 960,
         "wires": [
             [
-                "e62860145876be69"
+                "4b96b4f4e88fa774"
             ]
         ]
     },
     {
-        "id": "bb207b54af5d03d7",
+        "id": "96f25beefd9f4ad8",
         "type": "function",
-        "z": "5328378e44f89b23",
-        "g": "f07e8f33e135a3eb",
+        "z": "a5270bf39d2b1e5f",
+        "g": "ad10637843808906",
         "name": "GSHEET - List products by filters",
         "func": "var id = msg.payload.id || \"\";\nvar name = msg.payload.name || \"\";\nvar value = msg.payload.value || \"\";\nvar cost = msg.payload.cost || \"\";\nvar code = msg.payload.code || \"\";\nvar barcode = msg.payload.barcode || \"\";\nvar available_stock = msg.payload.available_stock || \"\";\nvar ncm_code = msg.payload.ncm_code || \"\";\nvar cest_code = msg.payload.cest_code || \"\";\nvar net_weight = msg.payload.net_weight || \"\";\nvar gross_weight = msg.payload.gross_weight || \"\";\nvar category_id = msg.payload.category.id || \"\";\nvar category_name = msg.payload.category.name || \"\";\nvar unit_measure = msg.payload.unit_measure || \"\";\nvar suppliers_id = msg.payload.suppliers.id || \"\";\nvar suppliers_name = msg.payload.suppliers.name || \"\";\n\nmsg.payload = [id, name, value, cost, code, barcode, available_stock, ncm_code, cest_code, net_weight, gross_weight, category_id, category_name, unit_measure, suppliers_id, suppliers_name]\n\nreturn msg;",
         "outputs": 1,
@@ -1800,18 +2003,18 @@
         "finalize": "",
         "libs": [],
         "x": 1360,
-        "y": 860,
+        "y": 960,
         "wires": [
             [
-                "a2b03d0c497b41d2"
+                "2b4d93a7377daeb3"
             ]
         ]
     },
     {
-        "id": "a2b03d0c497b41d2",
+        "id": "2b4d93a7377daeb3",
         "type": "GSheet",
-        "z": "5328378e44f89b23",
-        "g": "f07e8f33e135a3eb",
+        "z": "a5270bf39d2b1e5f",
+        "g": "ad10637843808906",
         "creds": "f131e02fdc178416",
         "method": "append",
         "action": "",
@@ -1820,16 +2023,16 @@
         "flatten": false,
         "name": "products",
         "x": 1600,
-        "y": 860,
+        "y": 960,
         "wires": [
             []
         ]
     },
     {
-        "id": "e62860145876be69",
+        "id": "4b96b4f4e88fa774",
         "type": "delay",
-        "z": "5328378e44f89b23",
-        "g": "f07e8f33e135a3eb",
+        "z": "a5270bf39d2b1e5f",
+        "g": "ad10637843808906",
         "name": "",
         "pauseType": "rate",
         "timeout": "5",
@@ -1844,18 +2047,18 @@
         "allowrate": false,
         "outputs": 1,
         "x": 1120,
-        "y": 860,
+        "y": 960,
         "wires": [
             [
-                "bb207b54af5d03d7"
+                "96f25beefd9f4ad8"
             ]
         ]
     },
     {
-        "id": "7a73930fc454e110",
+        "id": "6e99bacf77e40947",
         "type": "delay",
-        "z": "5328378e44f89b23",
-        "g": "778de4d5542a6d8a",
+        "z": "a5270bf39d2b1e5f",
+        "g": "8eb6a30e696f032d",
         "name": "",
         "pauseType": "rate",
         "timeout": "5",
@@ -1870,18 +2073,18 @@
         "allowrate": false,
         "outputs": 1,
         "x": 1120,
-        "y": 660,
+        "y": 760,
         "wires": [
             [
-                "9bad40bafb10d940"
+                "04393361ea052f4e"
             ]
         ]
     },
     {
-        "id": "abd50c2459d2b722",
+        "id": "6d1cc2dfd3f1a263",
         "type": "switch",
-        "z": "5328378e44f89b23",
-        "g": "f07e8f33e135a3eb",
+        "z": "a5270bf39d2b1e5f",
+        "g": "ad10637843808906",
         "name": "statusCode 200",
         "property": "statusCode",
         "propertyType": "msg",
@@ -1899,22 +2102,22 @@
         "repair": false,
         "outputs": 2,
         "x": 780,
-        "y": 900,
+        "y": 1000,
         "wires": [
             [
-                "2e3be6d7b67bc0d5",
-                "789e2476b90832d8"
+                "8632dc1f7cae2e36",
+                "2456fb26facc2e13"
             ],
             [
-                "0bbd5636b17709d1"
+                "7f682d4dd3a7350e"
             ]
         ]
     },
     {
-        "id": "789e2476b90832d8",
+        "id": "2456fb26facc2e13",
         "type": "debug",
-        "z": "5328378e44f89b23",
-        "g": "f07e8f33e135a3eb",
+        "z": "a5270bf39d2b1e5f",
+        "g": "ad10637843808906",
         "name": "List products by filters (code 200)",
         "active": true,
         "tosidebar": true,
@@ -1925,14 +2128,14 @@
         "statusVal": "payload",
         "statusType": "auto",
         "x": 1060,
-        "y": 920,
+        "y": 1020,
         "wires": []
     },
     {
-        "id": "9d634a726be7ab73",
+        "id": "288faaaba62e9a21",
         "type": "switch",
-        "z": "5328378e44f89b23",
-        "g": "1a8ad4193dc356bb",
+        "z": "a5270bf39d2b1e5f",
+        "g": "520c4afdd2a2c58c",
         "name": "statusCode 200",
         "property": "statusCode",
         "propertyType": "msg",
@@ -1950,21 +2153,21 @@
         "repair": false,
         "outputs": 2,
         "x": 800,
-        "y": 1180,
+        "y": 1280,
         "wires": [
             [
-                "49389ee7af39b366"
+                "559f581f0b47ea55"
             ],
             [
-                "7b4b7c4c1c6fbfec"
+                "42652ca971069b48"
             ]
         ]
     },
     {
-        "id": "7b4b7c4c1c6fbfec",
+        "id": "42652ca971069b48",
         "type": "debug",
-        "z": "5328378e44f89b23",
-        "g": "1a8ad4193dc356bb",
+        "z": "a5270bf39d2b1e5f",
+        "g": "520c4afdd2a2c58c",
         "name": "List sales by filters (otherwise)",
         "active": false,
         "tosidebar": true,
@@ -1975,14 +2178,14 @@
         "statusVal": "payload",
         "statusType": "auto",
         "x": 1050,
-        "y": 1220,
+        "y": 1320,
         "wires": []
     },
     {
-        "id": "113493730f69bf9b",
+        "id": "7bdb4f61e6364d06",
         "type": "function",
-        "z": "5328378e44f89b23",
-        "g": "1a8ad4193dc356bb",
+        "z": "a5270bf39d2b1e5f",
+        "g": "520c4afdd2a2c58c",
         "name": "GSHEET - List sales by filters",
         "func": "var id = msg.payload.id || \"\";\nvar ca_id = msg.payload.ca_id || \"\";\nvar number = msg.payload.number || \"\";\nvar emission = msg.payload.emission || \"\";\nvar status = msg.payload.status || \"\";\nvar scheduled = msg.payload.scheduled || \"\";\nvar customer_id = msg.payload.customer.id || \"\";\nvar customer_name = msg.payload.customer.name || \"\";\nvar discount = msg.payload.discount || \"\";\nvar product_discount = msg.payload.product_discount || \"\";\nvar service_discount = msg.payload.service_discount || \"\";\nvar payment_type = msg.payload.payment.type || \"\";\nvar payment_method = msg.payload.payment.method || \"\";\nvar payment_terms = msg.payload.payment_terms || \"\";\nvar notes = msg.payload.notes || \"\";\nvar shipping_cost = msg.payload.shipping_cost || \"\";\nvar shipping_forecast = msg.payload.id || \"\";\nvar total = msg.payload.total || \"\";\nvar proposal_date = msg.payload.proposal_date || \"\";\nvar expiration = msg.payload.expiration || \"\";\nvar introduction = msg.payload.introduction || \"\";\nvar shipping_forecast = msg.payload.shipping_forecast || \"\";\nvar category_id = msg.payload.category_id || \"\";\n\nmsg.payload = [\n    id,\n    ca_id,\n    number,\n    emission,\n    status,\n    scheduled,\n    customer_id,\n    customer_name,\n    discount,\n    product_discount,\n    service_discount,\n    payment_type,\n    payment_method,\n    payment_terms,\n    notes,\n    shipping_cost,\n    shipping_forecast,\n    total,\n    proposal_date,\n    expiration,\n    introduction,\n    shipping_forecast,\n    category_id\n    ]\n    \nreturn msg;",
         "outputs": 1,
@@ -1991,18 +2194,18 @@
         "finalize": "",
         "libs": [],
         "x": 1370,
-        "y": 1140,
+        "y": 1240,
         "wires": [
             [
-                "21bacf50c6bd062a"
+                "09f28a6bb15a86f2"
             ]
         ]
     },
     {
-        "id": "21bacf50c6bd062a",
+        "id": "09f28a6bb15a86f2",
         "type": "GSheet",
-        "z": "5328378e44f89b23",
-        "g": "1a8ad4193dc356bb",
+        "z": "a5270bf39d2b1e5f",
+        "g": "520c4afdd2a2c58c",
         "creds": "f131e02fdc178416",
         "method": "append",
         "action": "",
@@ -2011,16 +2214,16 @@
         "flatten": false,
         "name": "sales",
         "x": 1610,
-        "y": 1140,
+        "y": 1240,
         "wires": [
             []
         ]
     },
     {
-        "id": "325b750de5a7f642",
+        "id": "aa7d344c640480bd",
         "type": "function",
-        "z": "5328378e44f89b23",
-        "g": "1a8ad4193dc356bb",
+        "z": "a5270bf39d2b1e5f",
+        "g": "520c4afdd2a2c58c",
         "name": "List sales by filters",
         "func": "//const date = new Date();\n//let day = date.getDate();\n//let month = date.getMonth() + 1;\n//let year = date.getFullYear();\n\n// This arrangement can be altered based on how we want the date's format to appear.\n//let currentDate = `${year}-${month}-${day}`;\nlet currentDate = new Date().toJSON().slice(0, 10);\n\nvar emission_start = currentDate;\nvar emission_end = currentDate;\n\nlet accessToken = global.get('accessToken');\n\nmsg.headers = {};\nmsg.headers['Authorization'] = 'Bearer ' + accessToken;\nmsg.url = \"https://api.contaazul.com/v1/sales?emission_start=\" + emission_start + \"&emission_end=\" + emission_end;\nreturn msg;",
         "outputs": 1,
@@ -2029,18 +2232,18 @@
         "finalize": "",
         "libs": [],
         "x": 430,
-        "y": 1240,
+        "y": 1340,
         "wires": [
             [
-                "372e87d11f62cb10"
+                "e2c59302d572a28d"
             ]
         ]
     },
     {
-        "id": "372e87d11f62cb10",
+        "id": "e2c59302d572a28d",
         "type": "http request",
-        "z": "5328378e44f89b23",
-        "g": "1a8ad4193dc356bb",
+        "z": "a5270bf39d2b1e5f",
+        "g": "520c4afdd2a2c58c",
         "name": "msg.url",
         "method": "GET",
         "ret": "obj",
@@ -2054,18 +2257,18 @@
         "senderr": false,
         "headers": [],
         "x": 660,
-        "y": 1240,
+        "y": 1340,
         "wires": [
             [
-                "9d634a726be7ab73"
+                "288faaaba62e9a21"
             ]
         ]
     },
     {
-        "id": "61e684cdd3878e5b",
+        "id": "db8917699fd33413",
         "type": "inject",
-        "z": "5328378e44f89b23",
-        "g": "1a8ad4193dc356bb",
+        "z": "a5270bf39d2b1e5f",
+        "g": "520c4afdd2a2c58c",
         "name": "List sales by filters date",
         "props": [
             {
@@ -2079,18 +2282,18 @@
         "onceDelay": 0.1,
         "topic": "List sales by filters date",
         "x": 210,
-        "y": 1240,
+        "y": 1340,
         "wires": [
             [
-                "325b750de5a7f642"
+                "aa7d344c640480bd"
             ]
         ]
     },
     {
-        "id": "b6dd09a252f859d1",
+        "id": "2c35938c1ab9765d",
         "type": "switch",
-        "z": "5328378e44f89b23",
-        "g": "778de4d5542a6d8a",
+        "z": "a5270bf39d2b1e5f",
+        "g": "8eb6a30e696f032d",
         "name": "statusCode 200",
         "property": "statusCode",
         "propertyType": "msg",
@@ -2108,20 +2311,20 @@
         "repair": false,
         "outputs": 2,
         "x": 800,
-        "y": 720,
+        "y": 820,
         "wires": [
             [
-                "ef4e53d77125a422",
-                "afad95bde58397ef"
+                "8859ca37fde68cd8",
+                "523bdef02e031da3"
             ],
             []
         ]
     },
     {
-        "id": "f26f111861013a57",
+        "id": "05e86e4e8d3d1d2e",
         "type": "switch",
-        "z": "5328378e44f89b23",
-        "g": "f97c9d8192f0bd5c",
+        "z": "a5270bf39d2b1e5f",
+        "g": "3b12e437c83e0daf",
         "name": "statusCode 200",
         "property": "statusCode",
         "propertyType": "msg",
@@ -2139,21 +2342,21 @@
         "repair": false,
         "outputs": 2,
         "x": 820,
-        "y": 1680,
+        "y": 1780,
         "wires": [
             [
-                "1157cf3a8219ed5f"
+                "40265c08de68bbd9"
             ],
             [
-                "017f390b84824a64"
+                "36617a0d11f502d9"
             ]
         ]
     },
     {
-        "id": "de9725fb735f59ac",
+        "id": "72ea348eb03bafbb",
         "type": "delay",
-        "z": "5328378e44f89b23",
-        "g": "f97c9d8192f0bd5c",
+        "z": "a5270bf39d2b1e5f",
+        "g": "3b12e437c83e0daf",
         "name": "",
         "pauseType": "rate",
         "timeout": "5",
@@ -2168,19 +2371,19 @@
         "allowrate": false,
         "outputs": 1,
         "x": 1130,
-        "y": 1640,
+        "y": 1740,
         "wires": [
             [
-                "7179a58e7f58a858",
-                "6d7cc7df3678af9c"
+                "1cf8e60b301c5103",
+                "bf22b8e71c4d831a"
             ]
         ]
     },
     {
-        "id": "7179a58e7f58a858",
+        "id": "1cf8e60b301c5103",
         "type": "function",
-        "z": "5328378e44f89b23",
-        "g": "f97c9d8192f0bd5c",
+        "z": "a5270bf39d2b1e5f",
+        "g": "3b12e437c83e0daf",
         "name": "GSHEET - Get sales totals by filter",
         "func": "var date = new Date().toISOString();\nvar pending = msg.payload.PENDING.total || \"\";\nvar proposal_accepted = msg.payload.PROPOSAL_ACCEPTED.total || \"\";\nvar committed = msg.payload.COMMITTED.total || \"\";\nvar proposal = msg.payload.PROPOSAL.total || \"\";\nvar total = msg.payload.TOTAL.total || \"\";\n\nmsg.payload = [\n    date,\n    pending,\n    committed,\n    proposal,\n    proposal_accepted,\n    total\n    ]\n    \nreturn msg;",
         "outputs": 1,
@@ -2189,18 +2392,18 @@
         "finalize": "",
         "libs": [],
         "x": 1360,
-        "y": 1640,
+        "y": 1740,
         "wires": [
             [
-                "56ff5c66c23af8b7"
+                "5c8d657e91f0bf57"
             ]
         ]
     },
     {
-        "id": "56ff5c66c23af8b7",
+        "id": "5c8d657e91f0bf57",
         "type": "GSheet",
-        "z": "5328378e44f89b23",
-        "g": "f97c9d8192f0bd5c",
+        "z": "a5270bf39d2b1e5f",
+        "g": "3b12e437c83e0daf",
         "creds": "f131e02fdc178416",
         "method": "append",
         "action": "",
@@ -2209,16 +2412,16 @@
         "flatten": false,
         "name": "sales_totais",
         "x": 1590,
-        "y": 1640,
+        "y": 1740,
         "wires": [
             []
         ]
     },
     {
-        "id": "1157cf3a8219ed5f",
+        "id": "40265c08de68bbd9",
         "type": "split",
-        "z": "5328378e44f89b23",
-        "g": "f97c9d8192f0bd5c",
+        "z": "a5270bf39d2b1e5f",
+        "g": "3b12e437c83e0daf",
         "name": "",
         "splt": "\\n",
         "spltType": "str",
@@ -2227,18 +2430,18 @@
         "stream": false,
         "addname": "",
         "x": 990,
-        "y": 1640,
+        "y": 1740,
         "wires": [
             [
-                "de9725fb735f59ac"
+                "72ea348eb03bafbb"
             ]
         ]
     },
     {
-        "id": "d342ed272c64a446",
+        "id": "8ef7304f87a2b516",
         "type": "switch",
-        "z": "5328378e44f89b23",
-        "g": "8a37af58e6a7a82b",
+        "z": "a5270bf39d2b1e5f",
+        "g": "6096fe5c52cfd343",
         "name": "statusCode 200",
         "property": "statusCode",
         "propertyType": "msg",
@@ -2256,21 +2459,21 @@
         "repair": false,
         "outputs": 2,
         "x": 780,
-        "y": 1980,
+        "y": 2000,
         "wires": [
             [
-                "01ae2fbf1f6e538f"
+                "837c90f110656909"
             ],
             [
-                "6691362f660124c3"
+                "9bde48f6bc610288"
             ]
         ]
     },
     {
-        "id": "01ae2fbf1f6e538f",
+        "id": "837c90f110656909",
         "type": "split",
-        "z": "5328378e44f89b23",
-        "g": "8a37af58e6a7a82b",
+        "z": "a5270bf39d2b1e5f",
+        "g": "6096fe5c52cfd343",
         "name": "",
         "splt": "\\n",
         "spltType": "str",
@@ -2279,18 +2482,18 @@
         "stream": false,
         "addname": "",
         "x": 950,
-        "y": 1940,
+        "y": 1960,
         "wires": [
             [
-                "81f600f3387e2f56"
+                "0649b31b191683d2"
             ]
         ]
     },
     {
-        "id": "81f600f3387e2f56",
+        "id": "0649b31b191683d2",
         "type": "delay",
-        "z": "5328378e44f89b23",
-        "g": "8a37af58e6a7a82b",
+        "z": "a5270bf39d2b1e5f",
+        "g": "6096fe5c52cfd343",
         "name": "",
         "pauseType": "rate",
         "timeout": "5",
@@ -2305,19 +2508,19 @@
         "allowrate": false,
         "outputs": 1,
         "x": 1100,
-        "y": 1940,
+        "y": 1960,
         "wires": [
             [
-                "907522eae72fbf3b",
-                "5e688a459b07d609"
+                "8aafeac1723a951f",
+                "e94038d695093f33"
             ]
         ]
     },
     {
-        "id": "907522eae72fbf3b",
+        "id": "8aafeac1723a951f",
         "type": "function",
-        "z": "5328378e44f89b23",
-        "g": "8a37af58e6a7a82b",
+        "z": "a5270bf39d2b1e5f",
+        "g": "6096fe5c52cfd343",
         "name": "GSHEET - List customers by filters",
         "func": "var id = msg.payload.id || \"\";\nvar name = msg.payload.name || \"\";\nvar company_name = msg.payload.company_name || \"\";\nvar email = msg.payload.email || \"\";\nvar business_phone = msg.payload.business_phone || \"\";\nvar mobile_phone = msg.payload.mobile_phone || \"\";\nvar person_type = msg.payload.person_type || \"\";\nvar document = msg.payload.document || \"\";\nvar identity_document = msg.payload.identity_document || \"\";\nvar state_registration_number = msg.payload.state_registration_number || \"\";\nvar state_registration_type = msg.payload.state_registration_type || \"\";\nvar city_registration_number = msg.payload.city_registration_number || \"\";\nvar date_of_birth = msg.payload.date_of_birth || \"\";\nvar notes = msg.payload.notes || \"\";\nvar created_at = msg.payload.created_at || \"\";\n\n\nmsg.payload = [\n    id,\n    name,\n    company_name,\n    email,\n    business_phone,\n    mobile_phone,\n    person_type,\n    document,\n    identity_document,\n    state_registration_number,\n    state_registration_type,\n    city_registration_number,\n    date_of_birth,\n    notes,\n    created_at\n    ]\n    \nreturn msg;",
         "outputs": 1,
@@ -2326,18 +2529,18 @@
         "finalize": "",
         "libs": [],
         "x": 1340,
-        "y": 1940,
+        "y": 1960,
         "wires": [
             [
-                "bde71b2e57fcf080"
+                "e926df5e9fdd5f13"
             ]
         ]
     },
     {
-        "id": "bde71b2e57fcf080",
+        "id": "e926df5e9fdd5f13",
         "type": "GSheet",
-        "z": "5328378e44f89b23",
-        "g": "8a37af58e6a7a82b",
+        "z": "a5270bf39d2b1e5f",
+        "g": "6096fe5c52cfd343",
         "creds": "f131e02fdc178416",
         "method": "append",
         "action": "",
@@ -2346,16 +2549,16 @@
         "flatten": false,
         "name": "customers",
         "x": 1570,
-        "y": 1940,
+        "y": 1960,
         "wires": [
             []
         ]
     },
     {
-        "id": "6691362f660124c3",
+        "id": "9bde48f6bc610288",
         "type": "debug",
-        "z": "5328378e44f89b23",
-        "g": "8a37af58e6a7a82b",
+        "z": "a5270bf39d2b1e5f",
+        "g": "6096fe5c52cfd343",
         "name": "List customers by filters (otherwise)",
         "active": false,
         "tosidebar": true,
@@ -2366,14 +2569,14 @@
         "statusVal": "payload",
         "statusType": "auto",
         "x": 1040,
-        "y": 2020,
+        "y": 2040,
         "wires": []
     },
     {
-        "id": "017f390b84824a64",
+        "id": "36617a0d11f502d9",
         "type": "debug",
-        "z": "5328378e44f89b23",
-        "g": "f97c9d8192f0bd5c",
+        "z": "a5270bf39d2b1e5f",
+        "g": "3b12e437c83e0daf",
         "name": "Get sales totals by filter (otherwise)",
         "active": false,
         "tosidebar": true,
@@ -2384,14 +2587,14 @@
         "statusVal": "payload",
         "statusType": "auto",
         "x": 1080,
-        "y": 1720,
+        "y": 1820,
         "wires": []
     },
     {
-        "id": "827061443a43a6dc",
+        "id": "e68697b67f6f0aa1",
         "type": "switch",
-        "z": "5328378e44f89b23",
-        "g": "befb70dbaf139f8d",
+        "z": "a5270bf39d2b1e5f",
+        "g": "d4955d968e26a214",
         "name": "statusCode 200",
         "property": "statusCode",
         "propertyType": "msg",
@@ -2409,19 +2612,19 @@
         "repair": false,
         "outputs": 2,
         "x": 1020,
-        "y": 1380,
+        "y": 1480,
         "wires": [
             [
-                "f79ab1c0d1703c19"
+                "ac1058c7e9d5117f"
             ],
             []
         ]
     },
     {
-        "id": "abda419234b9396a",
+        "id": "44f4dc20024c4528",
         "type": "delay",
-        "z": "5328378e44f89b23",
-        "g": "befb70dbaf139f8d",
+        "z": "a5270bf39d2b1e5f",
+        "g": "d4955d968e26a214",
         "name": "",
         "pauseType": "rate",
         "timeout": "5",
@@ -2436,19 +2639,19 @@
         "allowrate": false,
         "outputs": 1,
         "x": 1380,
-        "y": 1340,
+        "y": 1440,
         "wires": [
             [
-                "03e986da773b1e33",
-                "efe332b947f43eef"
+                "3576871ba80bd4c5",
+                "b6a3304892da3876"
             ]
         ]
     },
     {
-        "id": "03e986da773b1e33",
+        "id": "3576871ba80bd4c5",
         "type": "function",
-        "z": "5328378e44f89b23",
-        "g": "befb70dbaf139f8d",
+        "z": "a5270bf39d2b1e5f",
+        "g": "d4955d968e26a214",
         "name": "GSHEET - List sale items by filters",
         "func": "var id_sale = msg.contaazul || \"\";\nvar description = msg.payload.description || \"\";\nvar quantity = msg.payload.quantity || \"\";\nvar item_id = msg.payload.item.id || \"\";\nvar item_name = msg.payload.item.name || \"\";\nvar item_value = msg.payload.item.value || \"\";\nvar item_cost = msg.payload.item.cost || \"\";\nvar itemType = msg.payload.itemType || \"\";\nvar value = msg.payload.item.value || \"\";\nvar item_id = msg.payload.item.id || \"\";\n\n\nmsg.payload = [\n    id_sale,\n    description,\n    quantity,\n    item_id,\n    item_name,\n    item_value,\n    item_cost,\n    itemType,\n    value,\n    item_id\n    ]\n    \nreturn msg;",
         "outputs": 1,
@@ -2457,18 +2660,18 @@
         "finalize": "",
         "libs": [],
         "x": 1620,
-        "y": 1340,
+        "y": 1440,
         "wires": [
             [
-                "ba8fe1441f31e37f"
+                "7f14a77456407be8"
             ]
         ]
     },
     {
-        "id": "f79ab1c0d1703c19",
+        "id": "ac1058c7e9d5117f",
         "type": "split",
-        "z": "5328378e44f89b23",
-        "g": "befb70dbaf139f8d",
+        "z": "a5270bf39d2b1e5f",
+        "g": "d4955d968e26a214",
         "name": "",
         "splt": "\\n",
         "spltType": "str",
@@ -2477,18 +2680,18 @@
         "stream": false,
         "addname": "",
         "x": 1230,
-        "y": 1340,
+        "y": 1440,
         "wires": [
             [
-                "abda419234b9396a"
+                "44f4dc20024c4528"
             ]
         ]
     },
     {
-        "id": "ba8fe1441f31e37f",
+        "id": "7f14a77456407be8",
         "type": "GSheet",
-        "z": "5328378e44f89b23",
-        "g": "befb70dbaf139f8d",
+        "z": "a5270bf39d2b1e5f",
+        "g": "d4955d968e26a214",
         "creds": "f131e02fdc178416",
         "method": "append",
         "action": "",
@@ -2497,16 +2700,16 @@
         "flatten": false,
         "name": "sales_items",
         "x": 1830,
-        "y": 1340,
+        "y": 1440,
         "wires": [
             []
         ]
     },
     {
-        "id": "c3c97beb34b6ae5c",
+        "id": "ccc79a9b87589a0d",
         "type": "http request",
-        "z": "5328378e44f89b23",
-        "g": "ef0208012326a558",
+        "z": "a5270bf39d2b1e5f",
+        "g": "fdb14db95ecc5489",
         "name": "msg.url",
         "method": "GET",
         "ret": "obj",
@@ -2520,18 +2723,18 @@
         "senderr": false,
         "headers": [],
         "x": 720,
-        "y": 1520,
+        "y": 1620,
         "wires": [
             [
-                "bc50af897f3af9f5"
+                "56d7c30edea5a455"
             ]
         ]
     },
     {
-        "id": "bc50af897f3af9f5",
+        "id": "56d7c30edea5a455",
         "type": "switch",
-        "z": "5328378e44f89b23",
-        "g": "ef0208012326a558",
+        "z": "a5270bf39d2b1e5f",
+        "g": "fdb14db95ecc5489",
         "name": "statusCode 200",
         "property": "statusCode",
         "propertyType": "msg",
@@ -2549,19 +2752,19 @@
         "repair": false,
         "outputs": 2,
         "x": 880,
-        "y": 1520,
+        "y": 1620,
         "wires": [
             [
-                "410cd671829cf6d9"
+                "d88f4d039f040eac"
             ],
             []
         ]
     },
     {
-        "id": "410cd671829cf6d9",
+        "id": "d88f4d039f040eac",
         "type": "delay",
-        "z": "5328378e44f89b23",
-        "g": "ef0208012326a558",
+        "z": "a5270bf39d2b1e5f",
+        "g": "fdb14db95ecc5489",
         "name": "",
         "pauseType": "rate",
         "timeout": "5",
@@ -2576,19 +2779,19 @@
         "allowrate": false,
         "outputs": 1,
         "x": 1100,
-        "y": 1500,
+        "y": 1600,
         "wires": [
             [
-                "21f38fdc3913fd3a",
-                "feaefbe2d6d09d02"
+                "6db64c6ff1f76750",
+                "8394a30dc9e26b4a"
             ]
         ]
     },
     {
-        "id": "21f38fdc3913fd3a",
+        "id": "6db64c6ff1f76750",
         "type": "function",
-        "z": "5328378e44f89b23",
-        "g": "ef0208012326a558",
+        "z": "a5270bf39d2b1e5f",
+        "g": "fdb14db95ecc5489",
         "name": "GSHEET - List sales by filters",
         "func": "var id = msg.payload.id || \"\";\nvar ca_id = msg.payload.ca_id || \"\";\nvar number = msg.payload.number || \"\";\nvar emission = msg.payload.emission || \"\";\nvar status = msg.payload.status || \"\";\nvar scheduled = msg.payload.scheduled || \"\";\nvar customer_id = msg.payload.customer.id || \"\";\nvar customer_name = msg.payload.customer.name || \"\";\nvar discount = msg.payload.discount || \"\";\nvar product_discount = msg.payload.product_discount || \"\";\nvar service_discount = msg.payload.service_discount || \"\";\nvar payment_type = msg.payload.payment.type || \"\";\nvar payment_method = msg.payload.payment.method || \"\";\nvar payment_terms = msg.payload.payment_terms || \"\";\nvar notes = msg.payload.notes || \"\";\nvar shipping_cost = msg.payload.shipping_cost || \"\";\nvar shipping_forecast = msg.payload.id || \"\";\nvar total = msg.payload.total || \"\";\nvar proposal_date = msg.payload.proposal_date || \"\";\nvar expiration = msg.payload.expiration || \"\";\nvar introduction = msg.payload.introduction || \"\";\nvar shipping_forecast = msg.payload.shipping_forecast || \"\";\nvar category_id = msg.payload.category_id || \"\";\n\nmsg.payload = [\n    id,\n    ca_id,\n    number,\n    emission,\n    status,\n    scheduled,\n    customer_id,\n    customer_name,\n    discount,\n    product_discount,\n    service_discount,\n    payment_type,\n    payment_method,\n    payment_terms,\n    notes,\n    shipping_cost,\n    shipping_forecast,\n    total,\n    proposal_date,\n    expiration,\n    introduction,\n    shipping_forecast,\n    category_id\n    ]\n    \nreturn msg;",
         "outputs": 1,
@@ -2597,18 +2800,18 @@
         "finalize": "",
         "libs": [],
         "x": 1330,
-        "y": 1500,
+        "y": 1600,
         "wires": [
             [
-                "0bceae9d31c5507b"
+                "6497d0e79437e766"
             ]
         ]
     },
     {
-        "id": "0bceae9d31c5507b",
+        "id": "6497d0e79437e766",
         "type": "GSheet",
-        "z": "5328378e44f89b23",
-        "g": "ef0208012326a558",
+        "z": "a5270bf39d2b1e5f",
+        "g": "fdb14db95ecc5489",
         "creds": "f131e02fdc178416",
         "method": "append",
         "action": "",
@@ -2617,15 +2820,489 @@
         "flatten": false,
         "name": "sales",
         "x": 1530,
-        "y": 1500,
+        "y": 1600,
         "wires": [
             []
         ]
     },
     {
-        "id": "f131e02fdc178416",
-        "type": "gauth",
-        "name": "xxx@xxx",
-        "credentials": {}
+        "id": "10d7fda56335549d",
+        "type": "oauth2",
+        "z": "a5270bf39d2b1e5f",
+        "g": "466b68bd101cc969",
+        "name": "",
+        "container": "oauth2Response",
+        "grant_type": "authorization_code",
+        "access_token_url": " https://api.contaazul.com/oauth2/token",
+        "authorization_endpoint": "https://api.contaazul.com/auth/authorize",
+        "redirect_uri": "/oauth2/redirect_uri",
+        "open_authentication": "",
+        "username": "",
+        "password": "",
+        "client_id": "QwkQtN5hQVHWVfpJDr7J1pamiWjvFDeo",
+        "client_secret": "Sra1MkjDU18SdsO5GTOz6hlTnMvthWM0",
+        "scope": "sales",
+        "client_credentials_in_body": false,
+        "rejectUnauthorized": true,
+        "headers": {},
+        "x": 370,
+        "y": 140,
+        "wires": [
+            [
+                "ceee711fb518653f",
+                "d820ad4eae640b0c"
+            ]
+        ]
+    },
+    {
+        "id": "4030c52c.c2c29c",
+        "type": "inject",
+        "z": "a5270bf39d2b1e5f",
+        "g": "7e1a2f9059f99060",
+        "name": "Refresh Token",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 170,
+        "y": 320,
+        "wires": [
+            [
+                "31727a2c.05a026"
+            ]
+        ]
+    },
+    {
+        "id": "31727a2c.05a026",
+        "type": "function",
+        "z": "a5270bf39d2b1e5f",
+        "g": "7e1a2f9059f99060",
+        "name": "SETTING REQUEST",
+        "func": "var REFRESH_TOKEN = global.get('refreshToken');\nvar ACCESS_TOKEN = global.get('accessToken');\n\nmsg.method = \"POST\"\nmsg.url = `https://api.contaazul.com/oauth2/token?grant_type=refresh_token&refresh_token=${REFRESH_TOKEN}`\nmsg.headers = {}\nmsg.headers[\"content-type\"] = \"application/json\"\nmsg.headers[\"Authorization\"] = `Bearer ${ACCESS_TOKEN}`;\n\n// var teach = teach\n// var loop = loop\n// msg.payload = [{\n//     \"mode\":teach,\n//     \"loop\":1\n// }]\nreturn msg",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 420,
+        "y": 320,
+        "wires": [
+            [
+                "64d9243f.b7be7c"
+            ]
+        ]
+    },
+    {
+        "id": "64d9243f.b7be7c",
+        "type": "http request",
+        "z": "a5270bf39d2b1e5f",
+        "g": "7e1a2f9059f99060",
+        "name": "HTTP-REQUEST",
+        "method": "use",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 770,
+        "y": 320,
+        "wires": [
+            [
+                "3b67977c.a53c08"
+            ]
+        ]
+    },
+    {
+        "id": "3b67977c.a53c08",
+        "type": "debug",
+        "z": "a5270bf39d2b1e5f",
+        "g": "7e1a2f9059f99060",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": true,
+        "tostatus": true,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 1090,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "fa297a2263ccab64",
+        "type": "debug",
+        "z": "ee01ea9dc7f8444d",
+        "g": "c11eb7aff843bd09",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1150,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "b09fcda36b29337e",
+        "type": "oauth2",
+        "z": "ee01ea9dc7f8444d",
+        "g": "c11eb7aff843bd09",
+        "name": "Client Credentials",
+        "container": "oauth2Response",
+        "grant_type": "client_credentials",
+        "access_token_url": "http://localhost:3000/oauth/token ",
+        "username": "pedroet",
+        "password": "",
+        "client_id": "confidentialApplication",
+        "client_secret": "topSecret",
+        "scope": "*",
+        "rejectUnauthorized": true,
+        "headers": {},
+        "x": 710,
+        "y": 100,
+        "wires": [
+            [
+                "92a15df57cfde3ad"
+            ]
+        ]
+    },
+    {
+        "id": "68ce0e033979d11d",
+        "type": "inject",
+        "z": "ee01ea9dc7f8444d",
+        "g": "c11eb7aff843bd09",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 180,
+        "y": 100,
+        "wires": [
+            [
+                "b09fcda36b29337e"
+            ]
+        ]
+    },
+    {
+        "id": "6adbb00a164f0d30",
+        "type": "inject",
+        "z": "ee01ea9dc7f8444d",
+        "g": "dbf002e7839fdaf4",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 180,
+        "y": 300,
+        "wires": [
+            [
+                "5eedef6eb8215636"
+            ]
+        ]
+    },
+    {
+        "id": "5eedef6eb8215636",
+        "type": "function",
+        "z": "ee01ea9dc7f8444d",
+        "g": "dbf002e7839fdaf4",
+        "name": "Refresh Token",
+        "func": "let refreshToken = global.get('refreshToken');\n\nmsg.oauth2Request = { \n    \"access_token_url\": \"http://localhost:3000/oauth/token\",\n    \"credentials\": {\n        \"grant_type\": \"refresh_token\",\n        \"client_id\": \"application\",\n        \"client_secret\": \"secret\",\n        \"scope\": \"*\",\n        \"refresh_token\": refreshToken   \n    },\n};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 420,
+        "y": 300,
+        "wires": [
+            [
+                "0dbd3192fc8e6d8f"
+            ]
+        ]
+    },
+    {
+        "id": "bbb398a4c6b6581d",
+        "type": "oauth2",
+        "z": "ee01ea9dc7f8444d",
+        "g": "dbf002e7839fdaf4",
+        "name": "Set by msg.oauth2Request",
+        "container": "oauth2Response",
+        "grant_type": "set_by_credentials",
+        "access_token_url": "http://localhost:3000/oauth/token ",
+        "username": "pedroet",
+        "password": "",
+        "client_id": "confidentialApplication",
+        "client_secret": "topSecret",
+        "scope": "*",
+        "rejectUnauthorized": true,
+        "headers": {},
+        "x": 720,
+        "y": 300,
+        "wires": [
+            [
+                "1f9670457ea0fdeb"
+            ]
+        ]
+    },
+    {
+        "id": "5f5889fc9873830c",
+        "type": "function",
+        "z": "ee01ea9dc7f8444d",
+        "g": "dbf002e7839fdaf4",
+        "name": "Password",
+        "func": "msg.oauth2Request = { \n    \"access_token_url\": \"http://localhost:3000/oauth/token\",\n    \"credentials\": {\n        \"grant_type\": \"password\",\n        \"client_id\": \"application\",\n        \"client_secret\": \"secret\",\n        \"scope\": \"*\",\n        \"username\": \"pedroetb\",\n        \"password\": \"password\"   \n    },\n};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 440,
+        "y": 260,
+        "wires": [
+            [
+                "0dbd3192fc8e6d8f"
+            ]
+        ]
+    },
+    {
+        "id": "aa78cee9cf6b05a4",
+        "type": "debug",
+        "z": "ee01ea9dc7f8444d",
+        "g": "dbf002e7839fdaf4",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1150,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "e92113c4c92e02b9",
+        "type": "inject",
+        "z": "ee01ea9dc7f8444d",
+        "g": "dbf002e7839fdaf4",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 180,
+        "y": 260,
+        "wires": [
+            [
+                "5f5889fc9873830c"
+            ]
+        ]
+    },
+    {
+        "id": "1f9670457ea0fdeb",
+        "type": "function",
+        "z": "ee01ea9dc7f8444d",
+        "g": "dbf002e7839fdaf4",
+        "name": "Set refreshToken",
+        "func": "if (msg.oauth2Response.refreshToken) {\n    global.set('refreshToken',msg.oauth2Response.refreshToken);\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 970,
+        "y": 300,
+        "wires": [
+            [
+                "aa78cee9cf6b05a4"
+            ]
+        ]
+    },
+    {
+        "id": "457c466345b3c830",
+        "type": "oauth2",
+        "z": "ee01ea9dc7f8444d",
+        "g": "c11eb7aff843bd09",
+        "name": "Password",
+        "container": "oauth2Response",
+        "grant_type": "password",
+        "access_token_url": "http://localhost:3000/oauth/token ",
+        "username": "pedroetb",
+        "password": "password",
+        "client_id": "application",
+        "client_secret": "secret",
+        "scope": "*",
+        "rejectUnauthorized": true,
+        "headers": {},
+        "x": 740,
+        "y": 160,
+        "wires": [
+            [
+                "92a15df57cfde3ad"
+            ]
+        ]
+    },
+    {
+        "id": "be9f8d3e5126b0aa",
+        "type": "inject",
+        "z": "ee01ea9dc7f8444d",
+        "g": "c11eb7aff843bd09",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 180,
+        "y": 160,
+        "wires": [
+            [
+                "457c466345b3c830"
+            ]
+        ]
+    },
+    {
+        "id": "00bcb23670663c56",
+        "type": "function",
+        "z": "ee01ea9dc7f8444d",
+        "g": "dbf002e7839fdaf4",
+        "name": "Client Credentials",
+        "func": "msg.oauth2Request = { \n    \"access_token_url\": \"http://localhost:3000/oauth/token\",\n    \"credentials\": {\n        \"grant_type\": \"client_credentials\",\n        \"client_id\": \"confidentialApplication\",\n        \"client_secret\": \"topSecret\",\n        \"scope\": \"*\"\n    },\n};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 410,
+        "y": 340,
+        "wires": [
+            [
+                "0dbd3192fc8e6d8f"
+            ]
+        ]
+    },
+    {
+        "id": "da4c05becf924c6a",
+        "type": "inject",
+        "z": "ee01ea9dc7f8444d",
+        "g": "dbf002e7839fdaf4",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 180,
+        "y": 340,
+        "wires": [
+            [
+                "00bcb23670663c56"
+            ]
+        ]
+    },
+    {
+        "id": "41140191adba1afc",
+        "type": "function",
+        "z": "ee01ea9dc7f8444d",
+        "g": "c11eb7aff843bd09",
+        "name": "Set accessToken",
+        "func": "if (msg.oauth2Response.accessToken) {\n    global.set('accessToken', msg.oauth2Response.accessToken);\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 970,
+        "y": 120,
+        "wires": [
+            [
+                "fa297a2263ccab64"
+            ]
+        ]
     }
 ]
