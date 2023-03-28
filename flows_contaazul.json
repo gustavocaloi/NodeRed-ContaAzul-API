@@ -1,0 +1,2631 @@
+[
+    {
+        "id": "5328378e44f89b23",
+        "type": "tab",
+        "label": "Conta Azul",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "f8f155864df687d1",
+        "type": "group",
+        "z": "5328378e44f89b23",
+        "name": "PRODUCTS",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "778de4d5542a6d8a",
+            "f07e8f33e135a3eb"
+        ],
+        "x": 28,
+        "y": 593,
+        "w": 1704,
+        "h": 454
+    },
+    {
+        "id": "85217864ccf744e5",
+        "type": "group",
+        "z": "5328378e44f89b23",
+        "name": "AUTHENTICATION",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "c1fbd38512f5c6b5",
+            "c1ff3c38b85811f4",
+            "a1cdd94000350d25"
+        ],
+        "x": 28,
+        "y": 13,
+        "w": 1204,
+        "h": 554
+    },
+    {
+        "id": "6e7fd02405f167ad",
+        "type": "group",
+        "z": "5328378e44f89b23",
+        "name": "SALES",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "1a8ad4193dc356bb",
+            "befb70dbaf139f8d",
+            "ef0208012326a558",
+            "f97c9d8192f0bd5c"
+        ],
+        "x": 28,
+        "y": 1073,
+        "w": 1924,
+        "h": 714
+    },
+    {
+        "id": "8a37af58e6a7a82b",
+        "type": "group",
+        "z": "5328378e44f89b23",
+        "name": "CUSTOMERS",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "32e1850c7840ff48",
+            "5e688a459b07d609",
+            "f36f9fc23b484ae5",
+            "e208510019ac2a02",
+            "d342ed272c64a446",
+            "01ae2fbf1f6e538f",
+            "81f600f3387e2f56",
+            "907522eae72fbf3b",
+            "bde71b2e57fcf080",
+            "6691362f660124c3"
+        ],
+        "x": 34,
+        "y": 1899,
+        "w": 1632,
+        "h": 162
+    },
+    {
+        "id": "50be9245bba02fe7",
+        "type": "group",
+        "z": "5328378e44f89b23",
+        "name": "OUTROS",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "c1e324ec0d8f36ca",
+            "b26406af77fa6298",
+            "187932e0bcb6406b",
+            "9ee97d74a7aed945",
+            "20adad00ef64b0c1",
+            "f79591417e4b3de4",
+            "b0f0534e1cb7b60c",
+            "da1c6bc53c99c613",
+            "5b7a466954c986c8",
+            "eba8c7615ad933dc",
+            "bff216603791337c",
+            "22740ad29cb483e7"
+        ],
+        "x": 34,
+        "y": 2099,
+        "w": 972,
+        "h": 202
+    },
+    {
+        "id": "778de4d5542a6d8a",
+        "type": "group",
+        "z": "5328378e44f89b23",
+        "g": "f8f155864df687d1",
+        "name": "PRODUCT CATEGORIES",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "67e3983e289bfe7d",
+            "719648dba782163d",
+            "b1bfbf95592b3c9f",
+            "afad95bde58397ef",
+            "a30be28b30a798d7",
+            "9bad40bafb10d940",
+            "ef4e53d77125a422",
+            "7a73930fc454e110",
+            "b6dd09a252f859d1"
+        ],
+        "x": 54,
+        "y": 619,
+        "w": 1652,
+        "h": 142
+    },
+    {
+        "id": "f07e8f33e135a3eb",
+        "type": "group",
+        "z": "5328378e44f89b23",
+        "g": "f8f155864df687d1",
+        "name": "PRODUCTS LIST",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "8407c3ac9d4b317c",
+            "0bbd5636b17709d1",
+            "552878a0d1690ea7",
+            "01365da054b0a791",
+            "2e3be6d7b67bc0d5",
+            "bb207b54af5d03d7",
+            "a2b03d0c497b41d2",
+            "e62860145876be69",
+            "abd50c2459d2b722",
+            "789e2476b90832d8"
+        ],
+        "x": 54,
+        "y": 819,
+        "w": 1632,
+        "h": 202
+    },
+    {
+        "id": "c1fbd38512f5c6b5",
+        "type": "group",
+        "z": "5328378e44f89b23",
+        "g": "85217864ccf744e5",
+        "name": "CREDENTIALS",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "311f8a64823d13bc",
+            "ad419de749bdb743",
+            "cdf42c22ee81eccb",
+            "1404f532525a4d71",
+            "85596e28f54d3208"
+        ],
+        "x": 54,
+        "y": 39,
+        "w": 892,
+        "h": 122
+    },
+    {
+        "id": "c1ff3c38b85811f4",
+        "type": "group",
+        "z": "5328378e44f89b23",
+        "g": "85217864ccf744e5",
+        "name": "REFRESH",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "0e76ae143ab92f65",
+            "676ebe1c05eb164e",
+            "fd1cfb17066595ea",
+            "96c6cefb8ed68c71",
+            "07d62311e3d86ba7"
+        ],
+        "x": 54,
+        "y": 179,
+        "w": 1152,
+        "h": 82
+    },
+    {
+        "id": "a1cdd94000350d25",
+        "type": "group",
+        "z": "5328378e44f89b23",
+        "g": "85217864ccf744e5",
+        "name": "TOKEN",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "4c11ab15a0c33e51",
+            "1c7feb9035e1eaf5",
+            "90fb053a44837499",
+            "c118f47ec2ba6053",
+            "9d552f3f0f6fa0ca",
+            "019252c2c93b6e10",
+            "bdfc034cbe151e20",
+            "c3e2173ea1c35bd8",
+            "8cc18731337714ae"
+        ],
+        "x": 54,
+        "y": 279,
+        "w": 732,
+        "h": 262
+    },
+    {
+        "id": "1a8ad4193dc356bb",
+        "type": "group",
+        "z": "5328378e44f89b23",
+        "g": "6e7fd02405f167ad",
+        "name": "LIST SALES",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "071a8cc5e71c0603",
+            "3909dd54f8269fa0",
+            "49389ee7af39b366",
+            "05c29d0295a4f543",
+            "5a2812d1760660fc",
+            "91b15223c4efa5df",
+            "9d634a726be7ab73",
+            "7b4b7c4c1c6fbfec",
+            "113493730f69bf9b",
+            "21bacf50c6bd062a",
+            "325b750de5a7f642",
+            "372e87d11f62cb10",
+            "61e684cdd3878e5b"
+        ],
+        "x": 54,
+        "y": 1099,
+        "w": 1632,
+        "h": 182
+    },
+    {
+        "id": "befb70dbaf139f8d",
+        "type": "group",
+        "z": "5328378e44f89b23",
+        "g": "6e7fd02405f167ad",
+        "name": "LIST SALES ITEMS",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "efe332b947f43eef",
+            "feaefbe2d6d09d02",
+            "4bfa6bde8f7356e5",
+            "47f38711ca8fa602",
+            "2cc03b489135af1f",
+            "827061443a43a6dc",
+            "abda419234b9396a",
+            "03e986da773b1e33",
+            "f79ab1c0d1703c19",
+            "ba8fe1441f31e37f"
+        ],
+        "x": 54,
+        "y": 1299,
+        "w": 1872,
+        "h": 142
+    },
+    {
+        "id": "ef0208012326a558",
+        "type": "group",
+        "z": "5328378e44f89b23",
+        "g": "6e7fd02405f167ad",
+        "name": "GET SALE",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "91942118245d119a",
+            "b3ad9f218683c2e2",
+            "6a2c6f9c3011d0a4",
+            "c3c97beb34b6ae5c",
+            "bc50af897f3af9f5",
+            "410cd671829cf6d9",
+            "21f38fdc3913fd3a",
+            "0bceae9d31c5507b"
+        ],
+        "x": 54,
+        "y": 1459,
+        "w": 1552,
+        "h": 102
+    },
+    {
+        "id": "f97c9d8192f0bd5c",
+        "type": "group",
+        "z": "5328378e44f89b23",
+        "g": "6e7fd02405f167ad",
+        "name": "GET SALES TOTAIS",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "dc2282e9a5d8847c",
+            "1e31959ed391a2b1",
+            "6d7cc7df3678af9c",
+            "b8f5a14f64a8b7cb",
+            "f26f111861013a57",
+            "de9725fb735f59ac",
+            "7179a58e7f58a858",
+            "56ff5c66c23af8b7",
+            "1157cf3a8219ed5f",
+            "017f390b84824a64"
+        ],
+        "x": 54,
+        "y": 1599,
+        "w": 1632,
+        "h": 162
+    },
+    {
+        "id": "311f8a64823d13bc",
+        "type": "debug",
+        "z": "5328378e44f89b23",
+        "g": "c1fbd38512f5c6b5",
+        "name": "Set Global Token",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 810,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "ad419de749bdb743",
+        "type": "oauth2",
+        "z": "5328378e44f89b23",
+        "g": "c1fbd38512f5c6b5",
+        "name": "Client Credentials",
+        "container": "oauth2Response",
+        "grant_type": "authorization_code",
+        "access_token_url": "https://api.contaazul.com/oauth2/token",
+        "authorization_endpoint": "https://api.contaazul.com/auth/authorize",
+        "open_authentication": "",
+        "username": "lcaloi",
+        "password": "",
+        "client_id": "client_id",
+        "client_secret": "client_secret",
+        "scope": "sales",
+        "client_credentials_in_body": true,
+        "rejectUnauthorized": true,
+        "headers": {},
+        "x": 390,
+        "y": 80,
+        "wires": [
+            [
+                "1404f532525a4d71",
+                "85596e28f54d3208"
+            ]
+        ]
+    },
+    {
+        "id": "cdf42c22ee81eccb",
+        "type": "inject",
+        "z": "5328378e44f89b23",
+        "g": "c1fbd38512f5c6b5",
+        "name": "Client Credentials",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 190,
+        "y": 80,
+        "wires": [
+            [
+                "ad419de749bdb743"
+            ]
+        ]
+    },
+    {
+        "id": "67e3983e289bfe7d",
+        "type": "http request",
+        "z": "5328378e44f89b23",
+        "g": "778de4d5542a6d8a",
+        "name": "List product categories",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "query",
+        "url": "https://api.contaazul.com/v1/product-categories",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 590,
+        "y": 720,
+        "wires": [
+            [
+                "b6dd09a252f859d1"
+            ]
+        ]
+    },
+    {
+        "id": "1404f532525a4d71",
+        "type": "function",
+        "z": "5328378e44f89b23",
+        "g": "c1fbd38512f5c6b5",
+        "name": "Set Global Token",
+        "func": "global.set('refreshToken', msg.oauth2Response.refresh_token);\nglobal.set('accessToken', msg.oauth2Response.access_token);\nglobal.set('tokenType', msg.oauth2Response.token_type);\nglobal.set('expiresIn', msg.oauth2Response.expires_in);\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 610,
+        "y": 80,
+        "wires": [
+            [
+                "311f8a64823d13bc"
+            ]
+        ]
+    },
+    {
+        "id": "719648dba782163d",
+        "type": "function",
+        "z": "5328378e44f89b23",
+        "g": "778de4d5542a6d8a",
+        "name": "Authorization",
+        "func": "let accessToken = global.get('accessToken');\n\nmsg.headers = {};\n//msg.headers['Authorization'] = 'Bearer XXXX';\nmsg.headers['Authorization'] = 'Bearer ' + accessToken;\n\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 390,
+        "y": 720,
+        "wires": [
+            [
+                "67e3983e289bfe7d"
+            ]
+        ]
+    },
+    {
+        "id": "b1bfbf95592b3c9f",
+        "type": "inject",
+        "z": "5328378e44f89b23",
+        "g": "778de4d5542a6d8a",
+        "name": "List product categories",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "List product categories",
+        "x": 200,
+        "y": 720,
+        "wires": [
+            [
+                "719648dba782163d"
+            ]
+        ]
+    },
+    {
+        "id": "8407c3ac9d4b317c",
+        "type": "http request",
+        "z": "5328378e44f89b23",
+        "g": "f07e8f33e135a3eb",
+        "name": "List products by filters",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "https://api.contaazul.com/v1/products?size=999",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 580,
+        "y": 900,
+        "wires": [
+            [
+                "abd50c2459d2b722"
+            ]
+        ]
+    },
+    {
+        "id": "071a8cc5e71c0603",
+        "type": "http request",
+        "z": "5328378e44f89b23",
+        "g": "1a8ad4193dc356bb",
+        "name": "List sales by filters",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "https://api.contaazul.com/v1/sales?emission_start=2023-03-27&emission_end=2023-03-27",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 590,
+        "y": 1180,
+        "wires": [
+            [
+                "9d634a726be7ab73"
+            ]
+        ]
+    },
+    {
+        "id": "c1e324ec0d8f36ca",
+        "type": "http request",
+        "z": "5328378e44f89b23",
+        "g": "50be9245bba02fe7",
+        "name": "List sellers",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "https://api.contaazul.com/v1/sales/sellers",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 550,
+        "y": 2200,
+        "wires": [
+            [
+                "b26406af77fa6298"
+            ]
+        ]
+    },
+    {
+        "id": "0e76ae143ab92f65",
+        "type": "inject",
+        "z": "5328378e44f89b23",
+        "g": "c1ff3c38b85811f4",
+        "name": "Refresh Token",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "3300",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 180,
+        "y": 220,
+        "wires": [
+            [
+                "676ebe1c05eb164e"
+            ]
+        ]
+    },
+    {
+        "id": "676ebe1c05eb164e",
+        "type": "function",
+        "z": "5328378e44f89b23",
+        "g": "c1ff3c38b85811f4",
+        "name": "Refresh Token",
+        "func": "let refreshToken = global.get('refreshToken');\n\nmsg.oauth2Request = { \n    \"access_token_url\": \"https://api.contaazul.com/oauth2/token\",\n    \"credentials\": {\n        \"grant_type\": \"refresh_token\",\n        \"client_id\": \"pDcX0lJRsUfWovh5kAOHdILX8W53bcnE\",\n        \"client_secret\": \"tcRJQdy2s9bKoJAFJRSJh6ycHuBY2emo\",\n        \"scope\": \"sales\",\n        \"refresh_token\": refreshToken   \n    },\n};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 400,
+        "y": 220,
+        "wires": [
+            [
+                "fd1cfb17066595ea"
+            ]
+        ]
+    },
+    {
+        "id": "fd1cfb17066595ea",
+        "type": "oauth2",
+        "z": "5328378e44f89b23",
+        "g": "c1ff3c38b85811f4",
+        "name": "Set by msg.oauth2Request",
+        "container": "oauth2Response",
+        "grant_type": "set_by_credentials",
+        "access_token_url": "http://localhost:3000/oauth/token ",
+        "username": "pedroet",
+        "password": "",
+        "client_id": "confidentialApplication",
+        "client_secret": "topSecret",
+        "scope": "*",
+        "headers": {},
+        "x": 660,
+        "y": 220,
+        "wires": [
+            [
+                "96c6cefb8ed68c71"
+            ]
+        ]
+    },
+    {
+        "id": "96c6cefb8ed68c71",
+        "type": "function",
+        "z": "5328378e44f89b23",
+        "g": "c1ff3c38b85811f4",
+        "name": "Set refreshToken",
+        "func": "if (msg.oauth2Response.refreshToken) {\n    global.set('refreshToken',msg.oauth2Response.refreshToken);\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 890,
+        "y": 220,
+        "wires": [
+            [
+                "07d62311e3d86ba7"
+            ]
+        ]
+    },
+    {
+        "id": "07d62311e3d86ba7",
+        "type": "debug",
+        "z": "5328378e44f89b23",
+        "g": "c1ff3c38b85811f4",
+        "name": "Refresh Token",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 1080,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "85596e28f54d3208",
+        "type": "debug",
+        "z": "5328378e44f89b23",
+        "g": "c1fbd38512f5c6b5",
+        "name": "Client Credentials",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 610,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "b26406af77fa6298",
+        "type": "debug",
+        "z": "5328378e44f89b23",
+        "g": "50be9245bba02fe7",
+        "name": "List sellers",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 830,
+        "y": 2200,
+        "wires": []
+    },
+    {
+        "id": "3909dd54f8269fa0",
+        "type": "debug",
+        "z": "5328378e44f89b23",
+        "g": "1a8ad4193dc356bb",
+        "name": "List sales by filters",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 1350,
+        "y": 1200,
+        "wires": []
+    },
+    {
+        "id": "0bbd5636b17709d1",
+        "type": "debug",
+        "z": "5328378e44f89b23",
+        "g": "f07e8f33e135a3eb",
+        "name": "List products by filters (otherwise)",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 1060,
+        "y": 980,
+        "wires": []
+    },
+    {
+        "id": "afad95bde58397ef",
+        "type": "debug",
+        "z": "5328378e44f89b23",
+        "g": "778de4d5542a6d8a",
+        "name": "List product categories",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 1030,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "efe332b947f43eef",
+        "type": "debug",
+        "z": "5328378e44f89b23",
+        "g": "befb70dbaf139f8d",
+        "name": "sales-items",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 1390,
+        "y": 1400,
+        "wires": []
+    },
+    {
+        "id": "feaefbe2d6d09d02",
+        "type": "function",
+        "z": "5328378e44f89b23",
+        "g": "befb70dbaf139f8d",
+        "name": "List sale items by filters",
+        "func": "let id = msg.payload.id;\nlet accessToken = global.get('accessToken');\n\nmsg.headers = {};\nmsg.headers['Authorization'] = 'Bearer ' + accessToken;\nmsg.url = \"https://api.contaazul.com/v1/sales/\" + id + \"/items\";\nmsg.contaazul = id;\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 670,
+        "y": 1380,
+        "wires": [
+            [
+                "4bfa6bde8f7356e5"
+            ]
+        ]
+    },
+    {
+        "id": "49389ee7af39b366",
+        "type": "split",
+        "z": "5328378e44f89b23",
+        "g": "1a8ad4193dc356bb",
+        "name": "",
+        "splt": "\\n",
+        "spltType": "str",
+        "arraySplt": 1,
+        "arraySpltType": "len",
+        "stream": false,
+        "addname": "",
+        "x": 990,
+        "y": 1140,
+        "wires": [
+            [
+                "91b15223c4efa5df"
+            ]
+        ]
+    },
+    {
+        "id": "4c11ab15a0c33e51",
+        "type": "change",
+        "z": "5328378e44f89b23",
+        "g": "a1cdd94000350d25",
+        "name": "accessToken",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "accessToken",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 510,
+        "y": 320,
+        "wires": [
+            [
+                "1c7feb9035e1eaf5"
+            ]
+        ]
+    },
+    {
+        "id": "1c7feb9035e1eaf5",
+        "type": "debug",
+        "z": "5328378e44f89b23",
+        "g": "a1cdd94000350d25",
+        "name": "accessToken",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 670,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "90fb053a44837499",
+        "type": "inject",
+        "z": "5328378e44f89b23",
+        "g": "a1cdd94000350d25",
+        "name": "Valida Variaveis Globais",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 200,
+        "y": 400,
+        "wires": [
+            [
+                "4c11ab15a0c33e51",
+                "c118f47ec2ba6053",
+                "019252c2c93b6e10",
+                "c3e2173ea1c35bd8"
+            ]
+        ]
+    },
+    {
+        "id": "c118f47ec2ba6053",
+        "type": "change",
+        "z": "5328378e44f89b23",
+        "g": "a1cdd94000350d25",
+        "name": "refreshToken",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "refreshToken",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 510,
+        "y": 380,
+        "wires": [
+            [
+                "9d552f3f0f6fa0ca"
+            ]
+        ]
+    },
+    {
+        "id": "9d552f3f0f6fa0ca",
+        "type": "debug",
+        "z": "5328378e44f89b23",
+        "g": "a1cdd94000350d25",
+        "name": "refreshToken",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 670,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "019252c2c93b6e10",
+        "type": "change",
+        "z": "5328378e44f89b23",
+        "g": "a1cdd94000350d25",
+        "name": "tokenType",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "tokenType",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 510,
+        "y": 440,
+        "wires": [
+            [
+                "bdfc034cbe151e20"
+            ]
+        ]
+    },
+    {
+        "id": "bdfc034cbe151e20",
+        "type": "debug",
+        "z": "5328378e44f89b23",
+        "g": "a1cdd94000350d25",
+        "name": "tokenType",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 670,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "c3e2173ea1c35bd8",
+        "type": "change",
+        "z": "5328378e44f89b23",
+        "g": "a1cdd94000350d25",
+        "name": "expiresIn",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "expiresIn",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 500,
+        "y": 500,
+        "wires": [
+            [
+                "8cc18731337714ae"
+            ]
+        ]
+    },
+    {
+        "id": "8cc18731337714ae",
+        "type": "debug",
+        "z": "5328378e44f89b23",
+        "g": "a1cdd94000350d25",
+        "name": "expiresIn",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 660,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "4bfa6bde8f7356e5",
+        "type": "http request",
+        "z": "5328378e44f89b23",
+        "g": "befb70dbaf139f8d",
+        "name": "msg.url",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "query",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 860,
+        "y": 1380,
+        "wires": [
+            [
+                "827061443a43a6dc"
+            ]
+        ]
+    },
+    {
+        "id": "91942118245d119a",
+        "type": "function",
+        "z": "5328378e44f89b23",
+        "g": "ef0208012326a558",
+        "name": "Get sale by id",
+        "func": "let id = msg.payload.id;\nlet accessToken = global.get('accessToken');\n\nmsg.headers = {};\nmsg.headers['Authorization'] = 'Bearer ' + accessToken;\nmsg.url = \"https://api.contaazul.com/v1/sales/\" + id;\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 560,
+        "y": 1520,
+        "wires": [
+            [
+                "c3c97beb34b6ae5c"
+            ]
+        ]
+    },
+    {
+        "id": "187932e0bcb6406b",
+        "type": "http request",
+        "z": "5328378e44f89b23",
+        "g": "50be9245bba02fe7",
+        "name": "List services by filters",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "https://api.contaazul.com/v1/services",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 580,
+        "y": 2140,
+        "wires": [
+            [
+                "9ee97d74a7aed945"
+            ]
+        ]
+    },
+    {
+        "id": "9ee97d74a7aed945",
+        "type": "debug",
+        "z": "5328378e44f89b23",
+        "g": "50be9245bba02fe7",
+        "name": "List services by filters",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 860,
+        "y": 2140,
+        "wires": []
+    },
+    {
+        "id": "20adad00ef64b0c1",
+        "type": "inject",
+        "z": "5328378e44f89b23",
+        "g": "50be9245bba02fe7",
+        "name": "List services by filters",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "List services by filters",
+        "x": 180,
+        "y": 2140,
+        "wires": [
+            [
+                "f79591417e4b3de4"
+            ]
+        ]
+    },
+    {
+        "id": "f79591417e4b3de4",
+        "type": "function",
+        "z": "5328378e44f89b23",
+        "g": "50be9245bba02fe7",
+        "name": "Authorization",
+        "func": "let accessToken = global.get('accessToken');\n\nmsg.headers = {};\n//msg.headers['Authorization'] = 'Bearer xxx';\nmsg.headers['Authorization'] = 'Bearer ' + accessToken;\n\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 370,
+        "y": 2140,
+        "wires": [
+            [
+                "187932e0bcb6406b"
+            ]
+        ]
+    },
+    {
+        "id": "552878a0d1690ea7",
+        "type": "inject",
+        "z": "5328378e44f89b23",
+        "g": "f07e8f33e135a3eb",
+        "name": "List products by filters",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "List products by filters",
+        "x": 200,
+        "y": 900,
+        "wires": [
+            [
+                "01365da054b0a791"
+            ]
+        ]
+    },
+    {
+        "id": "01365da054b0a791",
+        "type": "function",
+        "z": "5328378e44f89b23",
+        "g": "f07e8f33e135a3eb",
+        "name": "Authorization",
+        "func": "let accessToken = global.get('accessToken');\n\nmsg.headers = {};\n//msg.headers['Authorization'] = 'Bearer xxx';\nmsg.headers['Authorization'] = 'Bearer ' + accessToken;\n\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 390,
+        "y": 900,
+        "wires": [
+            [
+                "8407c3ac9d4b317c"
+            ]
+        ]
+    },
+    {
+        "id": "b0f0534e1cb7b60c",
+        "type": "function",
+        "z": "5328378e44f89b23",
+        "g": "50be9245bba02fe7",
+        "name": "Authorization",
+        "func": "let accessToken = global.get('accessToken');\n\nmsg.headers = {};\n//msg.headers['Authorization'] = 'Bearer xxx';\nmsg.headers['Authorization'] = 'Bearer ' + accessToken;\n\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 370,
+        "y": 2200,
+        "wires": [
+            [
+                "c1e324ec0d8f36ca"
+            ]
+        ]
+    },
+    {
+        "id": "da1c6bc53c99c613",
+        "type": "inject",
+        "z": "5328378e44f89b23",
+        "g": "50be9245bba02fe7",
+        "name": "List sellers",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "List sellers",
+        "x": 220,
+        "y": 2200,
+        "wires": [
+            [
+                "b0f0534e1cb7b60c"
+            ]
+        ]
+    },
+    {
+        "id": "b8f5a14f64a8b7cb",
+        "type": "http request",
+        "z": "5328378e44f89b23",
+        "g": "f97c9d8192f0bd5c",
+        "name": "Get sales totals by filter",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "https://api.contaazul.com/v1/sales/totals",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 610,
+        "y": 1680,
+        "wires": [
+            [
+                "f26f111861013a57"
+            ]
+        ]
+    },
+    {
+        "id": "6d7cc7df3678af9c",
+        "type": "debug",
+        "z": "5328378e44f89b23",
+        "g": "f97c9d8192f0bd5c",
+        "name": "Get sales totals by filter",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 1330,
+        "y": 1680,
+        "wires": []
+    },
+    {
+        "id": "1e31959ed391a2b1",
+        "type": "function",
+        "z": "5328378e44f89b23",
+        "g": "f97c9d8192f0bd5c",
+        "name": "Authorization",
+        "func": "let accessToken = global.get('accessToken');\n\nmsg.headers = {};\n//msg.headers['Authorization'] = 'Bearer xxx';\nmsg.headers['Authorization'] = 'Bearer ' + accessToken;\n\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 410,
+        "y": 1680,
+        "wires": [
+            [
+                "b8f5a14f64a8b7cb"
+            ]
+        ]
+    },
+    {
+        "id": "dc2282e9a5d8847c",
+        "type": "inject",
+        "z": "5328378e44f89b23",
+        "g": "f97c9d8192f0bd5c",
+        "name": "Get sales totals by filter",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "3600",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "Get sales totals by filter",
+        "x": 210,
+        "y": 1680,
+        "wires": [
+            [
+                "1e31959ed391a2b1"
+            ]
+        ]
+    },
+    {
+        "id": "05c29d0295a4f543",
+        "type": "inject",
+        "z": "5328378e44f89b23",
+        "g": "1a8ad4193dc356bb",
+        "name": "List sales",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "List sales",
+        "x": 200,
+        "y": 1180,
+        "wires": [
+            [
+                "5a2812d1760660fc"
+            ]
+        ]
+    },
+    {
+        "id": "5a2812d1760660fc",
+        "type": "function",
+        "z": "5328378e44f89b23",
+        "g": "1a8ad4193dc356bb",
+        "name": "Authorization",
+        "func": "let accessToken = global.get('accessToken');\n\nmsg.headers = {};\n//msg.headers['Authorization'] = 'Bearer xxx';\nmsg.headers['Authorization'] = 'Bearer ' + accessToken;\n\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 410,
+        "y": 1180,
+        "wires": [
+            [
+                "071a8cc5e71c0603"
+            ]
+        ]
+    },
+    {
+        "id": "32e1850c7840ff48",
+        "type": "http request",
+        "z": "5328378e44f89b23",
+        "g": "8a37af58e6a7a82b",
+        "name": "List customers by filters",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "https://api.contaazul.com/v1/customers?size=999",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 570,
+        "y": 1980,
+        "wires": [
+            [
+                "d342ed272c64a446"
+            ]
+        ]
+    },
+    {
+        "id": "5e688a459b07d609",
+        "type": "debug",
+        "z": "5328378e44f89b23",
+        "g": "8a37af58e6a7a82b",
+        "name": "List customers by filters",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 1310,
+        "y": 1980,
+        "wires": []
+    },
+    {
+        "id": "f36f9fc23b484ae5",
+        "type": "function",
+        "z": "5328378e44f89b23",
+        "g": "8a37af58e6a7a82b",
+        "name": "Authorization",
+        "func": "let accessToken = global.get('accessToken');\n\nmsg.headers = {};\n//msg.headers['Authorization'] = 'Bearer xxx';\nmsg.headers['Authorization'] = 'Bearer ' + accessToken;\n\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 370,
+        "y": 1980,
+        "wires": [
+            [
+                "32e1850c7840ff48"
+            ]
+        ]
+    },
+    {
+        "id": "e208510019ac2a02",
+        "type": "inject",
+        "z": "5328378e44f89b23",
+        "g": "8a37af58e6a7a82b",
+        "name": "List customers by filters",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "List customers by filters",
+        "x": 180,
+        "y": 1980,
+        "wires": [
+            [
+                "f36f9fc23b484ae5"
+            ]
+        ]
+    },
+    {
+        "id": "5b7a466954c986c8",
+        "type": "http request",
+        "z": "5328378e44f89b23",
+        "g": "50be9245bba02fe7",
+        "name": "Get current user plans",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "https://api.contaazul.com/v1/plans/current",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 580,
+        "y": 2260,
+        "wires": [
+            [
+                "eba8c7615ad933dc"
+            ]
+        ]
+    },
+    {
+        "id": "eba8c7615ad933dc",
+        "type": "debug",
+        "z": "5328378e44f89b23",
+        "g": "50be9245bba02fe7",
+        "name": "Get current user plans",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 860,
+        "y": 2260,
+        "wires": []
+    },
+    {
+        "id": "bff216603791337c",
+        "type": "function",
+        "z": "5328378e44f89b23",
+        "g": "50be9245bba02fe7",
+        "name": "Authorization",
+        "func": "let accessToken = global.get('accessToken');\n\nmsg.headers = {};\n//msg.headers['Authorization'] = 'Bearer xxx';\nmsg.headers['Authorization'] = 'Bearer ' + accessToken;\n\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 370,
+        "y": 2260,
+        "wires": [
+            [
+                "5b7a466954c986c8"
+            ]
+        ]
+    },
+    {
+        "id": "22740ad29cb483e7",
+        "type": "inject",
+        "z": "5328378e44f89b23",
+        "g": "50be9245bba02fe7",
+        "name": "Get current user plans",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "Get current user plans",
+        "x": 180,
+        "y": 2260,
+        "wires": [
+            [
+                "bff216603791337c"
+            ]
+        ]
+    },
+    {
+        "id": "91b15223c4efa5df",
+        "type": "delay",
+        "z": "5328378e44f89b23",
+        "g": "1a8ad4193dc356bb",
+        "name": "",
+        "pauseType": "rate",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 1130,
+        "y": 1140,
+        "wires": [
+            [
+                "3909dd54f8269fa0",
+                "feaefbe2d6d09d02",
+                "113493730f69bf9b"
+            ]
+        ]
+    },
+    {
+        "id": "b3ad9f218683c2e2",
+        "type": "inject",
+        "z": "5328378e44f89b23",
+        "g": "ef0208012326a558",
+        "name": "Get sale by id",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "Get sale by id",
+        "x": 170,
+        "y": 1520,
+        "wires": [
+            [
+                "6a2c6f9c3011d0a4"
+            ]
+        ]
+    },
+    {
+        "id": "6a2c6f9c3011d0a4",
+        "type": "change",
+        "z": "5328378e44f89b23",
+        "g": "ef0208012326a558",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload.id",
+                "pt": "msg",
+                "to": "d063ccd5-1e5f-4dc7-9409-15f4e8a15bd6",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 350,
+        "y": 1520,
+        "wires": [
+            [
+                "91942118245d119a"
+            ]
+        ]
+    },
+    {
+        "id": "47f38711ca8fa602",
+        "type": "inject",
+        "z": "5328378e44f89b23",
+        "g": "befb70dbaf139f8d",
+        "name": "List sale items by filters",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "List sale items by filters",
+        "x": 200,
+        "y": 1380,
+        "wires": [
+            [
+                "2cc03b489135af1f"
+            ]
+        ]
+    },
+    {
+        "id": "2cc03b489135af1f",
+        "type": "change",
+        "z": "5328378e44f89b23",
+        "g": "befb70dbaf139f8d",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload.id",
+                "pt": "msg",
+                "to": "d063ccd5-1e5f-4dc7-9409-15f4e8a15bd6",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 410,
+        "y": 1380,
+        "wires": [
+            [
+                "feaefbe2d6d09d02"
+            ]
+        ]
+    },
+    {
+        "id": "a30be28b30a798d7",
+        "type": "GSheet",
+        "z": "5328378e44f89b23",
+        "g": "778de4d5542a6d8a",
+        "creds": "f131e02fdc178416",
+        "method": "append",
+        "action": "",
+        "sheet": "xxx",
+        "cells": "product_categories!A:Z",
+        "flatten": false,
+        "name": "product_categories",
+        "x": 1590,
+        "y": 660,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9bad40bafb10d940",
+        "type": "function",
+        "z": "5328378e44f89b23",
+        "g": "778de4d5542a6d8a",
+        "name": "GSHEET - product_categories",
+        "func": "var id = msg.payload.id;\nvar name = msg.payload.name;\n\nmsg.payload = [id, name]\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1350,
+        "y": 660,
+        "wires": [
+            [
+                "a30be28b30a798d7"
+            ]
+        ]
+    },
+    {
+        "id": "ef4e53d77125a422",
+        "type": "split",
+        "z": "5328378e44f89b23",
+        "g": "778de4d5542a6d8a",
+        "name": "",
+        "splt": "\\n",
+        "spltType": "str",
+        "arraySplt": 1,
+        "arraySpltType": "len",
+        "stream": false,
+        "addname": "",
+        "x": 970,
+        "y": 660,
+        "wires": [
+            [
+                "7a73930fc454e110"
+            ]
+        ]
+    },
+    {
+        "id": "2e3be6d7b67bc0d5",
+        "type": "split",
+        "z": "5328378e44f89b23",
+        "g": "f07e8f33e135a3eb",
+        "name": "",
+        "splt": "\\n",
+        "spltType": "str",
+        "arraySplt": 1,
+        "arraySpltType": "len",
+        "stream": false,
+        "addname": "",
+        "x": 970,
+        "y": 860,
+        "wires": [
+            [
+                "e62860145876be69"
+            ]
+        ]
+    },
+    {
+        "id": "bb207b54af5d03d7",
+        "type": "function",
+        "z": "5328378e44f89b23",
+        "g": "f07e8f33e135a3eb",
+        "name": "GSHEET - List products by filters",
+        "func": "var id = msg.payload.id || \"\";\nvar name = msg.payload.name || \"\";\nvar value = msg.payload.value || \"\";\nvar cost = msg.payload.cost || \"\";\nvar code = msg.payload.code || \"\";\nvar barcode = msg.payload.barcode || \"\";\nvar available_stock = msg.payload.available_stock || \"\";\nvar ncm_code = msg.payload.ncm_code || \"\";\nvar cest_code = msg.payload.cest_code || \"\";\nvar net_weight = msg.payload.net_weight || \"\";\nvar gross_weight = msg.payload.gross_weight || \"\";\nvar category_id = msg.payload.category.id || \"\";\nvar category_name = msg.payload.category.name || \"\";\nvar unit_measure = msg.payload.unit_measure || \"\";\nvar suppliers_id = msg.payload.suppliers.id || \"\";\nvar suppliers_name = msg.payload.suppliers.name || \"\";\n\nmsg.payload = [id, name, value, cost, code, barcode, available_stock, ncm_code, cest_code, net_weight, gross_weight, category_id, category_name, unit_measure, suppliers_id, suppliers_name]\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1360,
+        "y": 860,
+        "wires": [
+            [
+                "a2b03d0c497b41d2"
+            ]
+        ]
+    },
+    {
+        "id": "a2b03d0c497b41d2",
+        "type": "GSheet",
+        "z": "5328378e44f89b23",
+        "g": "f07e8f33e135a3eb",
+        "creds": "f131e02fdc178416",
+        "method": "append",
+        "action": "",
+        "sheet": "xxx",
+        "cells": "products!A:P",
+        "flatten": false,
+        "name": "products",
+        "x": 1600,
+        "y": 860,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e62860145876be69",
+        "type": "delay",
+        "z": "5328378e44f89b23",
+        "g": "f07e8f33e135a3eb",
+        "name": "",
+        "pauseType": "rate",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "5",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 1120,
+        "y": 860,
+        "wires": [
+            [
+                "bb207b54af5d03d7"
+            ]
+        ]
+    },
+    {
+        "id": "7a73930fc454e110",
+        "type": "delay",
+        "z": "5328378e44f89b23",
+        "g": "778de4d5542a6d8a",
+        "name": "",
+        "pauseType": "rate",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "5",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 1120,
+        "y": 660,
+        "wires": [
+            [
+                "9bad40bafb10d940"
+            ]
+        ]
+    },
+    {
+        "id": "abd50c2459d2b722",
+        "type": "switch",
+        "z": "5328378e44f89b23",
+        "g": "f07e8f33e135a3eb",
+        "name": "statusCode 200",
+        "property": "statusCode",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "200",
+                "vt": "num"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 780,
+        "y": 900,
+        "wires": [
+            [
+                "2e3be6d7b67bc0d5",
+                "789e2476b90832d8"
+            ],
+            [
+                "0bbd5636b17709d1"
+            ]
+        ]
+    },
+    {
+        "id": "789e2476b90832d8",
+        "type": "debug",
+        "z": "5328378e44f89b23",
+        "g": "f07e8f33e135a3eb",
+        "name": "List products by filters (code 200)",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 1060,
+        "y": 920,
+        "wires": []
+    },
+    {
+        "id": "9d634a726be7ab73",
+        "type": "switch",
+        "z": "5328378e44f89b23",
+        "g": "1a8ad4193dc356bb",
+        "name": "statusCode 200",
+        "property": "statusCode",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "200",
+                "vt": "num"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 800,
+        "y": 1180,
+        "wires": [
+            [
+                "49389ee7af39b366"
+            ],
+            [
+                "7b4b7c4c1c6fbfec"
+            ]
+        ]
+    },
+    {
+        "id": "7b4b7c4c1c6fbfec",
+        "type": "debug",
+        "z": "5328378e44f89b23",
+        "g": "1a8ad4193dc356bb",
+        "name": "List sales by filters (otherwise)",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 1050,
+        "y": 1220,
+        "wires": []
+    },
+    {
+        "id": "113493730f69bf9b",
+        "type": "function",
+        "z": "5328378e44f89b23",
+        "g": "1a8ad4193dc356bb",
+        "name": "GSHEET - List sales by filters",
+        "func": "var id = msg.payload.id || \"\";\nvar ca_id = msg.payload.ca_id || \"\";\nvar number = msg.payload.number || \"\";\nvar emission = msg.payload.emission || \"\";\nvar status = msg.payload.status || \"\";\nvar scheduled = msg.payload.scheduled || \"\";\nvar customer_id = msg.payload.customer.id || \"\";\nvar customer_name = msg.payload.customer.name || \"\";\nvar discount = msg.payload.discount || \"\";\nvar product_discount = msg.payload.product_discount || \"\";\nvar service_discount = msg.payload.service_discount || \"\";\nvar payment_type = msg.payload.payment.type || \"\";\nvar payment_method = msg.payload.payment.method || \"\";\nvar payment_terms = msg.payload.payment_terms || \"\";\nvar notes = msg.payload.notes || \"\";\nvar shipping_cost = msg.payload.shipping_cost || \"\";\nvar shipping_forecast = msg.payload.id || \"\";\nvar total = msg.payload.total || \"\";\nvar proposal_date = msg.payload.proposal_date || \"\";\nvar expiration = msg.payload.expiration || \"\";\nvar introduction = msg.payload.introduction || \"\";\nvar shipping_forecast = msg.payload.shipping_forecast || \"\";\nvar category_id = msg.payload.category_id || \"\";\n\nmsg.payload = [\n    id,\n    ca_id,\n    number,\n    emission,\n    status,\n    scheduled,\n    customer_id,\n    customer_name,\n    discount,\n    product_discount,\n    service_discount,\n    payment_type,\n    payment_method,\n    payment_terms,\n    notes,\n    shipping_cost,\n    shipping_forecast,\n    total,\n    proposal_date,\n    expiration,\n    introduction,\n    shipping_forecast,\n    category_id\n    ]\n    \nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1370,
+        "y": 1140,
+        "wires": [
+            [
+                "21bacf50c6bd062a"
+            ]
+        ]
+    },
+    {
+        "id": "21bacf50c6bd062a",
+        "type": "GSheet",
+        "z": "5328378e44f89b23",
+        "g": "1a8ad4193dc356bb",
+        "creds": "f131e02fdc178416",
+        "method": "append",
+        "action": "",
+        "sheet": "xxx",
+        "cells": "sales!A:Z",
+        "flatten": false,
+        "name": "sales",
+        "x": 1610,
+        "y": 1140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "325b750de5a7f642",
+        "type": "function",
+        "z": "5328378e44f89b23",
+        "g": "1a8ad4193dc356bb",
+        "name": "List sales by filters",
+        "func": "//const date = new Date();\n//let day = date.getDate();\n//let month = date.getMonth() + 1;\n//let year = date.getFullYear();\n\n// This arrangement can be altered based on how we want the date's format to appear.\n//let currentDate = `${year}-${month}-${day}`;\nlet currentDate = new Date().toJSON().slice(0, 10);\n\nvar emission_start = currentDate;\nvar emission_end = currentDate;\n\nlet accessToken = global.get('accessToken');\n\nmsg.headers = {};\nmsg.headers['Authorization'] = 'Bearer ' + accessToken;\nmsg.url = \"https://api.contaazul.com/v1/sales?emission_start=\" + emission_start + \"&emission_end=\" + emission_end;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 430,
+        "y": 1240,
+        "wires": [
+            [
+                "372e87d11f62cb10"
+            ]
+        ]
+    },
+    {
+        "id": "372e87d11f62cb10",
+        "type": "http request",
+        "z": "5328378e44f89b23",
+        "g": "1a8ad4193dc356bb",
+        "name": "msg.url",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "query",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 660,
+        "y": 1240,
+        "wires": [
+            [
+                "9d634a726be7ab73"
+            ]
+        ]
+    },
+    {
+        "id": "61e684cdd3878e5b",
+        "type": "inject",
+        "z": "5328378e44f89b23",
+        "g": "1a8ad4193dc356bb",
+        "name": "List sales by filters date",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "60",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "List sales by filters date",
+        "x": 210,
+        "y": 1240,
+        "wires": [
+            [
+                "325b750de5a7f642"
+            ]
+        ]
+    },
+    {
+        "id": "b6dd09a252f859d1",
+        "type": "switch",
+        "z": "5328378e44f89b23",
+        "g": "778de4d5542a6d8a",
+        "name": "statusCode 200",
+        "property": "statusCode",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "200",
+                "vt": "num"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 800,
+        "y": 720,
+        "wires": [
+            [
+                "ef4e53d77125a422",
+                "afad95bde58397ef"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "f26f111861013a57",
+        "type": "switch",
+        "z": "5328378e44f89b23",
+        "g": "f97c9d8192f0bd5c",
+        "name": "statusCode 200",
+        "property": "statusCode",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "200",
+                "vt": "num"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 820,
+        "y": 1680,
+        "wires": [
+            [
+                "1157cf3a8219ed5f"
+            ],
+            [
+                "017f390b84824a64"
+            ]
+        ]
+    },
+    {
+        "id": "de9725fb735f59ac",
+        "type": "delay",
+        "z": "5328378e44f89b23",
+        "g": "f97c9d8192f0bd5c",
+        "name": "",
+        "pauseType": "rate",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 1130,
+        "y": 1640,
+        "wires": [
+            [
+                "7179a58e7f58a858",
+                "6d7cc7df3678af9c"
+            ]
+        ]
+    },
+    {
+        "id": "7179a58e7f58a858",
+        "type": "function",
+        "z": "5328378e44f89b23",
+        "g": "f97c9d8192f0bd5c",
+        "name": "GSHEET - Get sales totals by filter",
+        "func": "var date = new Date().toISOString();\nvar pending = msg.payload.PENDING.total || \"\";\nvar proposal_accepted = msg.payload.PROPOSAL_ACCEPTED.total || \"\";\nvar committed = msg.payload.COMMITTED.total || \"\";\nvar proposal = msg.payload.PROPOSAL.total || \"\";\nvar total = msg.payload.TOTAL.total || \"\";\n\nmsg.payload = [\n    date,\n    pending,\n    committed,\n    proposal,\n    proposal_accepted,\n    total\n    ]\n    \nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1360,
+        "y": 1640,
+        "wires": [
+            [
+                "56ff5c66c23af8b7"
+            ]
+        ]
+    },
+    {
+        "id": "56ff5c66c23af8b7",
+        "type": "GSheet",
+        "z": "5328378e44f89b23",
+        "g": "f97c9d8192f0bd5c",
+        "creds": "f131e02fdc178416",
+        "method": "append",
+        "action": "",
+        "sheet": "xxx",
+        "cells": "sales_totais!A:Z",
+        "flatten": false,
+        "name": "sales_totais",
+        "x": 1590,
+        "y": 1640,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1157cf3a8219ed5f",
+        "type": "split",
+        "z": "5328378e44f89b23",
+        "g": "f97c9d8192f0bd5c",
+        "name": "",
+        "splt": "\\n",
+        "spltType": "str",
+        "arraySplt": 1,
+        "arraySpltType": "len",
+        "stream": false,
+        "addname": "",
+        "x": 990,
+        "y": 1640,
+        "wires": [
+            [
+                "de9725fb735f59ac"
+            ]
+        ]
+    },
+    {
+        "id": "d342ed272c64a446",
+        "type": "switch",
+        "z": "5328378e44f89b23",
+        "g": "8a37af58e6a7a82b",
+        "name": "statusCode 200",
+        "property": "statusCode",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "200",
+                "vt": "num"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 780,
+        "y": 1980,
+        "wires": [
+            [
+                "01ae2fbf1f6e538f"
+            ],
+            [
+                "6691362f660124c3"
+            ]
+        ]
+    },
+    {
+        "id": "01ae2fbf1f6e538f",
+        "type": "split",
+        "z": "5328378e44f89b23",
+        "g": "8a37af58e6a7a82b",
+        "name": "",
+        "splt": "\\n",
+        "spltType": "str",
+        "arraySplt": 1,
+        "arraySpltType": "len",
+        "stream": false,
+        "addname": "",
+        "x": 950,
+        "y": 1940,
+        "wires": [
+            [
+                "81f600f3387e2f56"
+            ]
+        ]
+    },
+    {
+        "id": "81f600f3387e2f56",
+        "type": "delay",
+        "z": "5328378e44f89b23",
+        "g": "8a37af58e6a7a82b",
+        "name": "",
+        "pauseType": "rate",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "2",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 1100,
+        "y": 1940,
+        "wires": [
+            [
+                "907522eae72fbf3b",
+                "5e688a459b07d609"
+            ]
+        ]
+    },
+    {
+        "id": "907522eae72fbf3b",
+        "type": "function",
+        "z": "5328378e44f89b23",
+        "g": "8a37af58e6a7a82b",
+        "name": "GSHEET - List customers by filters",
+        "func": "var id = msg.payload.id || \"\";\nvar name = msg.payload.name || \"\";\nvar company_name = msg.payload.company_name || \"\";\nvar email = msg.payload.email || \"\";\nvar business_phone = msg.payload.business_phone || \"\";\nvar mobile_phone = msg.payload.mobile_phone || \"\";\nvar person_type = msg.payload.person_type || \"\";\nvar document = msg.payload.document || \"\";\nvar identity_document = msg.payload.identity_document || \"\";\nvar state_registration_number = msg.payload.state_registration_number || \"\";\nvar state_registration_type = msg.payload.state_registration_type || \"\";\nvar city_registration_number = msg.payload.city_registration_number || \"\";\nvar date_of_birth = msg.payload.date_of_birth || \"\";\nvar notes = msg.payload.notes || \"\";\nvar created_at = msg.payload.created_at || \"\";\n\n\nmsg.payload = [\n    id,\n    name,\n    company_name,\n    email,\n    business_phone,\n    mobile_phone,\n    person_type,\n    document,\n    identity_document,\n    state_registration_number,\n    state_registration_type,\n    city_registration_number,\n    date_of_birth,\n    notes,\n    created_at\n    ]\n    \nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1340,
+        "y": 1940,
+        "wires": [
+            [
+                "bde71b2e57fcf080"
+            ]
+        ]
+    },
+    {
+        "id": "bde71b2e57fcf080",
+        "type": "GSheet",
+        "z": "5328378e44f89b23",
+        "g": "8a37af58e6a7a82b",
+        "creds": "f131e02fdc178416",
+        "method": "append",
+        "action": "",
+        "sheet": "xxx",
+        "cells": "customers!A:Z",
+        "flatten": false,
+        "name": "customers",
+        "x": 1570,
+        "y": 1940,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6691362f660124c3",
+        "type": "debug",
+        "z": "5328378e44f89b23",
+        "g": "8a37af58e6a7a82b",
+        "name": "List customers by filters (otherwise)",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 1040,
+        "y": 2020,
+        "wires": []
+    },
+    {
+        "id": "017f390b84824a64",
+        "type": "debug",
+        "z": "5328378e44f89b23",
+        "g": "f97c9d8192f0bd5c",
+        "name": "Get sales totals by filter (otherwise)",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": true,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 1080,
+        "y": 1720,
+        "wires": []
+    },
+    {
+        "id": "827061443a43a6dc",
+        "type": "switch",
+        "z": "5328378e44f89b23",
+        "g": "befb70dbaf139f8d",
+        "name": "statusCode 200",
+        "property": "statusCode",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "200",
+                "vt": "num"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 1020,
+        "y": 1380,
+        "wires": [
+            [
+                "f79ab1c0d1703c19"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "abda419234b9396a",
+        "type": "delay",
+        "z": "5328378e44f89b23",
+        "g": "befb70dbaf139f8d",
+        "name": "",
+        "pauseType": "rate",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "2",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 1380,
+        "y": 1340,
+        "wires": [
+            [
+                "03e986da773b1e33",
+                "efe332b947f43eef"
+            ]
+        ]
+    },
+    {
+        "id": "03e986da773b1e33",
+        "type": "function",
+        "z": "5328378e44f89b23",
+        "g": "befb70dbaf139f8d",
+        "name": "GSHEET - List sale items by filters",
+        "func": "var id_sale = msg.contaazul || \"\";\nvar description = msg.payload.description || \"\";\nvar quantity = msg.payload.quantity || \"\";\nvar item_id = msg.payload.item.id || \"\";\nvar item_name = msg.payload.item.name || \"\";\nvar item_value = msg.payload.item.value || \"\";\nvar item_cost = msg.payload.item.cost || \"\";\nvar itemType = msg.payload.itemType || \"\";\nvar value = msg.payload.item.value || \"\";\nvar item_id = msg.payload.item.id || \"\";\n\n\nmsg.payload = [\n    id_sale,\n    description,\n    quantity,\n    item_id,\n    item_name,\n    item_value,\n    item_cost,\n    itemType,\n    value,\n    item_id\n    ]\n    \nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1620,
+        "y": 1340,
+        "wires": [
+            [
+                "ba8fe1441f31e37f"
+            ]
+        ]
+    },
+    {
+        "id": "f79ab1c0d1703c19",
+        "type": "split",
+        "z": "5328378e44f89b23",
+        "g": "befb70dbaf139f8d",
+        "name": "",
+        "splt": "\\n",
+        "spltType": "str",
+        "arraySplt": 1,
+        "arraySpltType": "len",
+        "stream": false,
+        "addname": "",
+        "x": 1230,
+        "y": 1340,
+        "wires": [
+            [
+                "abda419234b9396a"
+            ]
+        ]
+    },
+    {
+        "id": "ba8fe1441f31e37f",
+        "type": "GSheet",
+        "z": "5328378e44f89b23",
+        "g": "befb70dbaf139f8d",
+        "creds": "f131e02fdc178416",
+        "method": "append",
+        "action": "",
+        "sheet": "xxx",
+        "cells": "sales_items!A:Z",
+        "flatten": false,
+        "name": "sales_items",
+        "x": 1830,
+        "y": 1340,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c3c97beb34b6ae5c",
+        "type": "http request",
+        "z": "5328378e44f89b23",
+        "g": "ef0208012326a558",
+        "name": "msg.url",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "query",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 720,
+        "y": 1520,
+        "wires": [
+            [
+                "bc50af897f3af9f5"
+            ]
+        ]
+    },
+    {
+        "id": "bc50af897f3af9f5",
+        "type": "switch",
+        "z": "5328378e44f89b23",
+        "g": "ef0208012326a558",
+        "name": "statusCode 200",
+        "property": "statusCode",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "200",
+                "vt": "num"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 880,
+        "y": 1520,
+        "wires": [
+            [
+                "410cd671829cf6d9"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "410cd671829cf6d9",
+        "type": "delay",
+        "z": "5328378e44f89b23",
+        "g": "ef0208012326a558",
+        "name": "",
+        "pauseType": "rate",
+        "timeout": "5",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "2",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 1100,
+        "y": 1500,
+        "wires": [
+            [
+                "21f38fdc3913fd3a",
+                "feaefbe2d6d09d02"
+            ]
+        ]
+    },
+    {
+        "id": "21f38fdc3913fd3a",
+        "type": "function",
+        "z": "5328378e44f89b23",
+        "g": "ef0208012326a558",
+        "name": "GSHEET - List sales by filters",
+        "func": "var id = msg.payload.id || \"\";\nvar ca_id = msg.payload.ca_id || \"\";\nvar number = msg.payload.number || \"\";\nvar emission = msg.payload.emission || \"\";\nvar status = msg.payload.status || \"\";\nvar scheduled = msg.payload.scheduled || \"\";\nvar customer_id = msg.payload.customer.id || \"\";\nvar customer_name = msg.payload.customer.name || \"\";\nvar discount = msg.payload.discount || \"\";\nvar product_discount = msg.payload.product_discount || \"\";\nvar service_discount = msg.payload.service_discount || \"\";\nvar payment_type = msg.payload.payment.type || \"\";\nvar payment_method = msg.payload.payment.method || \"\";\nvar payment_terms = msg.payload.payment_terms || \"\";\nvar notes = msg.payload.notes || \"\";\nvar shipping_cost = msg.payload.shipping_cost || \"\";\nvar shipping_forecast = msg.payload.id || \"\";\nvar total = msg.payload.total || \"\";\nvar proposal_date = msg.payload.proposal_date || \"\";\nvar expiration = msg.payload.expiration || \"\";\nvar introduction = msg.payload.introduction || \"\";\nvar shipping_forecast = msg.payload.shipping_forecast || \"\";\nvar category_id = msg.payload.category_id || \"\";\n\nmsg.payload = [\n    id,\n    ca_id,\n    number,\n    emission,\n    status,\n    scheduled,\n    customer_id,\n    customer_name,\n    discount,\n    product_discount,\n    service_discount,\n    payment_type,\n    payment_method,\n    payment_terms,\n    notes,\n    shipping_cost,\n    shipping_forecast,\n    total,\n    proposal_date,\n    expiration,\n    introduction,\n    shipping_forecast,\n    category_id\n    ]\n    \nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1330,
+        "y": 1500,
+        "wires": [
+            [
+                "0bceae9d31c5507b"
+            ]
+        ]
+    },
+    {
+        "id": "0bceae9d31c5507b",
+        "type": "GSheet",
+        "z": "5328378e44f89b23",
+        "g": "ef0208012326a558",
+        "creds": "f131e02fdc178416",
+        "method": "append",
+        "action": "",
+        "sheet": "xxx",
+        "cells": "sales!A:Z",
+        "flatten": false,
+        "name": "sales",
+        "x": 1530,
+        "y": 1500,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f131e02fdc178416",
+        "type": "gauth",
+        "name": "xxx@xxx",
+        "credentials": {}
+    }
+]
