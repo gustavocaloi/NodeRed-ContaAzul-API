@@ -11,4 +11,4 @@
 
 ## Flow
 
-[Flow NodeRed + ContaAzul API](./blob/main/flows_contaazul.json)
+[Flow NodeRed + ContaAzul API](./flows_contaazul.json)
